@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Resume of Rob Booth</title>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <style type="text/css">
+    @import url(//fonts.googleapis.com/css?family=Open+Sans:400,600,700,800);
+@charset "utf-8";
+@-webkit-viewport   { width: device-width; }
+@-moz-viewport      { width: device-width; }
+@-ms-viewport       { width: device-width; }
+@-o-viewport        { width: device-width; }
+@viewport           { width: device-width; }
+
+body{
+  font-family: 'Open Sans', Arial, Tahoma;
+  font-weight: 400;
+  color: #363636;
+  background: #334960;
+}
+blockquote {
+  font-size: 1em;
+}
+
+.container{
+  margin-top: 80px;
+  margin-bottom: 15px;
+  background: #fff;
+}
+
+#photo-header{
+  margin-top: -75px;
+}
+#photo{
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  overflow: hidden;
+  padding: 5px;
+  background: #334960;
+  display: inline-block;
+}
+#photo img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+#text-header h1{
+  margin: 0;
+  padding: 0;
+  font-size: 1.5em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+}
+#text-header h1::first-line{
+  font-size: 1.5em;
+  font-weight: 800;
+  line-height: 1.5em;
+}
+#text-header h1 span{
+  color: #334960;
+  opacity: 0.7;
+}
+#text-header h1 sup{
+  opacity: 0.5;
+}
+#text-header:after{
+  width: 100%;
+  height: 3px;
+  border-bottom: 1px solid #ddd;
+  margin-top: 15px;
+  content: '';
+  display: block;
+}
+
+.box{
+  padding-bottom: 10px;
+  margin-bottom: 25px;
+}
+.box h2{
+  color: #227c74;
+  font-size: 1.5em;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+#awards,
+#education{
+  margin-top: 20px;
+  margin-bottom: 0;
+  position: relative;
+  padding: 1em 0;
+  list-style: none;
+}
+#awards:before,
+#education:before {
+  width: 5px;
+  height: 100%;
+  position: absolute;
+  left: 35px;
+  top: 0;
+  content: ' ';
+  display: block;
+  background: #32475c;
+  background: -moz-linear-gradient(top,  #ffffff 0%, #32475c 7%, #32475c 89%, #ffffff 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(7%,#32475c), color-stop(89%,#32475c), color-stop(100%,#ffffff));
+  background: -webkit-linear-gradient(top,  #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%);
+  background: -o-linear-gradient(top,  #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%);
+  background: -ms-linear-gradient(top,  #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%);
+  background: linear-gradient(to bottom,  #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 );
+}
+#awards li,
+#education li{
+  width: 100%;
+  z-index: 2;
+  position: relative;
+  float: left;
+}
+#awards .year,
+#education .year{
+  width: 14%;
+  background: #fff;
+  padding: 10px;
+  font-weight: 700;
+  display: inline-block;
+}
+#awards .description,
+#education .description{
+  width: 83%;
+  display: inline-block;
+  background: #eee;
+  margin-bottom: 10px;
+  position: relative;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+#awards .description:after,
+#education .description:after {
+  content: '';
+  position: absolute;
+  top: 15px;
+  right: 0;
+  left: -16px;
+  height: 0;
+  width: 0;
+  border: solid transparent;
+  border-right-color: #eee;
+  border-width: 8px;
+  pointer-events: none;
+}
+#awards .description h3,
+#education .description h3{
+  font-size: 1.2em;
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+}
+#awards .description p,
+#education .description p{
+  margin-top: 5px;
+  padding: 0;
+}
+
+.job{
+  margin-bottom: 15px;
+}
+.job .details {
+  margin-left: 3%;
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 10px;
+  background: #eee;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+.job .where{
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.job .year{
+  opacity: 0.7;
+}
+.job .profession{
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.job .description{
+  line-height: 1.5em;
+}
+.job .highlights{
+  padding: 5px 0;
+  font-weight: bold;
+}
+.job .job-details {
+  padding-left: 5%;
+  width: 100%;
+}
+.publication {
+  margin-bottom: 0;
+}
+.publication .name{
+  font-size: 1em;
+  font-weight: bold;
+}
+.publication .year{
+    opacity: 0.7;
+}
+.publication p{
+  margin: 0;
+  padding-top: 10px;
+}
+
+.contact-item{
+  width: 100%;
+  float: left;
+}
+.contact-item .icon{
+  padding: 10px;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  color: #32475c;
+  background: #eee;
+}
+.contact-item:last-child .icon{
+  border-bottom: none;
+}
+.contact-item .title{
+  width: 80%;
+  width: calc(100% - 55px);
+  font-weight: 700;
+  opacity: 0.9;
+}
+.contact-item .title.only{
+  margin-top: 10px;
+}
+.contact-item .description{
+  width: 80%;
+  width: calc(100% - 55px);
+  color: #334960;
+}
+
+.item-interests,
+.item-skills{
+  height: 30px;
+  color: #334960;
+  padding: 5px 10px;
+  margin-bottom: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 1.1em;
+  font-weight: 600;
+}
+.interest,
+.skill{
+  color: #fff;
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  padding: 5px 10px;
+  background: #32475c;
+  position: relative;
+  font-size: .85em;
+}
+.skill-level {
+  background-color: #227c74;
+  border-radius: 4px;
+  color: #fff;
+  padding: 1px 8px;
+  font-size: .75em;
+  position: absolute;
+  margin: 1px 10px;
+}
+
+#language-skills .skill{
+  margin: 10px 0;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+    </style>
+    <style type="text/css" media="print">
+    body {
+  font-size: .95em;
+  -webkit-print-color-adjust: exact;
+}
+
+a[href]:after {
+  content: none !important;
+}
+
+#photo{
+  display: none;
+}
+
+.box {
+  margin-bottom: -10px;
+}
+.col-sm-5{
+  width: 40%;
+  padding: 0 15px;
+}
+
+.col-sm-7{
+  width: 60%;
+  padding: 0 15px;
+}
+
+.skills .col-sm-offset-1,
+.interests .col-sm-offset-1{
+  margin-top: -10px;
+  margin-bottom: 5px;
+}
+
+#education {
+  margin: 0;
+  margin-bottom: -20px;
+}
+#awards:before,
+#education:before {
+  background: none;
+}
+
+#awards .description,
+#education .description,
+.job .details {
+  border: 1px solid #eee;
+}
+.publication,
+.publication .panel-heading,
+.publication .name{
+  margin: 0;
+  padding: 0 5px;
+  border: none;
+}
+.publication .panel-body {
+  padding: 0 10px;
+  margin: 0;
+}
+
+.badge {
+  margin: 0;
+}
+
+.list-group-item{
+  border: none;
+  margin: 0;
+  padding: 5px 15px;
+}
+.list-group-item:after{
+  content: '';
+  position: absolute;
+  top: 8px;
+  right: 0;
+  left: -1px;
+  height: 0;
+  width: 0;
+  border: solid transparent;
+  border-right-color: #999;
+  border-width: 4px;
+  pointer-events: none;
+ }
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div id="photo-header" class="text-center">
+            <!-- PHOTO (AVATAR) -->
+            <div id="photo">
+              <img src="https:&#x2F;&#x2F;media.licdn.com&#x2F;mpr&#x2F;mpr&#x2F;shrinknp_200_200&#x2F;AAEAAQAAAAAAAAK9AAAAJGUyMGQ1MzQzLTQ5ZjgtNGVhOC05ZDc4LTI5ZjEzNTFkMmM1Yw.jpg" alt="avatar">
+            </div>
+            <div id="text-header" >
+              <h1>Rob Booth<br><span>Software Engineer</span></h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-7">
+          <!-- ABOUT ME -->
+          <div class="box">
+            <h2><i class="fa fa-user ico"></i> About</h2>
+            <p>I've been working as a software engineer for over 15 years.  I've been involved in every aspect of the Software Development Life Cycle (SDLC) from planning to deployment.  I've never met a challenge that I couldn't meet and typically meet ahead of schedule.  
+
+For the last 6 years I've been working exclusively in the mobile space and am intrigued by the ability to have ubiquitous computing with us wherever we go.  Designing applications that allow users to interact with them weather they are on a PC, tablet, phone, or even TV is a challenge I find very rewarding.</p>
+          </div>
+          <!-- WORK EXPERIENCE -->
+          <div class="box">
+            <h2><i class= "fa fa-suitcase ico"></i> Work Experience</h2>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">Brain Corporation</div>
+                    <div class="address">
+                      <a href="http:&#x2F;&#x2F;braincorporation.com" target= "_blank"><i class="fa fa-globe ico"></i> http:&#x2F;&#x2F;braincorporation.com</a>
+                    </div>
+                    <div class="year">September 2014 – Present</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Software Engineer</div>
+                    <div class="description">
+                      Took ownership of the application interface to Brain Corporations flagship product BrainOS.  I am responsible for designing and developing the application that roboticists will use to interface and train their BrainOS enabled robots.  Worked with a small team to identify the weaknesses in current Robotic Operating Systems (ROS) and design and build a more robust and developer friendly replacement.  Worked to cross-compile and embed a C++ application into iOS devices making them a 1st class citizen in the distributed robotic environment that is BrainOS.
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">Redesigned training interface to be more understandable.</li>
+                        <li class="list-group-item">Squashed many bugs and memory leaks that prevented training application from running more that 5 minutes at a time.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">Bridgepoint Education Inc</div>
+                    <div class="address">
+                      <a href="http:&#x2F;&#x2F;bridgepointeducation.com" target= "_blank"><i class="fa fa-globe ico"></i> http:&#x2F;&#x2F;bridgepointeducation.com</a>
+                    </div>
+                    <div class="year">January 2008 – September 2014</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Principal Software Engineer &#x2F; Solutions Architect</div>
+                    <div class="description">
+                      Was tasked with building a mobile application on apples iOS devices (iPhone,iPad, iPod) to allow students access to there online classroom while on the go.  I took the project from a simple idea to a completed project in just under 6 months by leading a team of 5 developers.  Built server interfaces to both mobile devices and with 3rd party vendors.  Worked with vendors to design and build solutions to bring their tools to our students and employees in a timely and consistent manor.  Worked closely with principal members of the business to bring quality solutions to everyday problems and automate tasks giving employees more time to focus on other aspects of their jobs.
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">Lead team designing and building a mobile access platform on iOS devices using Objective-C/Cocoa, CoreData, and some CoreAnimation.</li>
+                        <li class="list-group-item">Worked within the iOS framework to get the best possible performance out of our application, making web calls on background threads, caching data, etc.</li>
+                        <li class="list-group-item">Held architectural oversight of Android version of application</li>
+                        <li class="list-group-item">Built C# and PHP interfaces to 3rd party APIs to manage student data.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">Intertune</div>
+                    <div class="address">
+                      <a href="http:&#x2F;&#x2F;intertune.com" target= "_blank"><i class="fa fa-globe ico"></i> http:&#x2F;&#x2F;intertune.com</a>
+                    </div>
+                    <div class="year">September 2006 – August 2007</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Software Engineer - Contractor</div>
+                    <div class="description">
+                      Helped build, design, and debug web based applications used by brokers in the vehicle transportation industry.
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">Updated existing PHP4 applications to PHP5</li>
+                        <li class="list-group-item">Converted procedural code to object oriented</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">RKB Enterprises, LLC.</div>
+                    <div class="year">September 2005 – September 2006</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Owner &#x2F; Operator</div>
+                    <div class="description">
+                      Owned and operated a local Irish pub.  Managed up to 6 employees.  Handled inventory, purchasing, payroll, marketing, and day-to-day operations.
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">Doubled the daily revenue.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">Indyme Electronics Inc.</div>
+                    <div class="year">March 2003 – August 2005</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Software Engineer</div>
+                    <div class="description">
+                      Used .Net, C#, SOAP, and PHP to design, build and implement a Web Service based tool used to configure remote machines.  Designed and built web based reporting solution.
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">Modified MySQL database design to be better normalized and efficient.</li>
+                        <li class="list-group-item">Built PHP based Web Service for interaction with a C# client and the MySQL database.</li>
+                        <li class="list-group-item">Worked on a C# client for the PHP Web Service.</li>
+                        <li class="list-group-item">Built a PHP client for the PHP Web Service for real time delivery and display of reporting data.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">Intuit Inc.</div>
+                    <div class="address">
+                      <a href="http:&#x2F;&#x2F;intuit.com" target= "_blank"><i class="fa fa-globe ico"></i> http:&#x2F;&#x2F;intuit.com</a>
+                    </div>
+                    <div class="year">July 2001 – March 2003</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Software Engineer II</div>
+                    <div class="description">
+                      Took ownership of internal database applications that tracked the release cycle of consumer products. Worked with my users to make the tools more efficient and reliable.  Worked with users to bring tools into engineering standards while maintaining functionality.
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">Ported Access database to PostgreSQL.</li>
+                        <li class="list-group-item">Updated Access client application to access new PostgreSQL database using ODBC.</li>
+                        <li class="list-group-item">Worked on plans and requirements gathering to redesign tools for better efficiency.</li>
+                        <li class="list-group-item">Built web based reporting mechanisms for real time access to data via web pages or sent email.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">SeminarSource.Com</div>
+                    <div class="year">December 2000 – July 2001</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Senior Programmer</div>
+                    <div class="description">
+                      Developed an Application Service Provider platform used to incorporate 3rd party web applications into a single web interface with a uniform look and feel.
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">Designed XML file transmission method for 3rd party web applications to talk with the platform.</li>
+                        <li class="list-group-item">Designed web based application that would talk via HTTP to a 3rd party web application.</li>
+                        <li class="list-group-item">Designed a Template engine that would use data gathered from a 3rd party and display it in a uniform environment.</li>
+                        <li class="list-group-item">Designed a CSS engine for modifying the way a template would be displayed no matter what the data.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">Solutions Media Inc.</div>
+                    <div class="year">March 2000 – September 2000</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Senior Programmer &#x2F; Director of Technology Solutions</div>
+                    <div class="description">
+                      I managed 12 people in developing and maintain web based applications and dynamic web sites.  Using PHP to connect to an Oracle database on a Solaris UNIX box I designed and built, or helped build many of the backend structures needed to keep the system running smoothly.
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">Grant &amp; Associates</div>
+                    <div class="year">August 1999 – March 2000</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Programmer &#x2F; DBA &#x2F; MIS</div>
+                    <div class="description">
+                      Working on my own I developed a method of automatically transferring Xbase (.dbf) files from a Windows based system into a Linux based system.  These files were then loaded into a MySQL database for use with PHP programs and web display of the data.  I set up Apache to parse the PHP files that connected to the MySQL database to retrieve and display the data to the user.
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">Financial Database Services</div>
+                    <div class="year">July 1998 – August 1999</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Programmer</div>
+                    <div class="description">
+                      With only an outline and instructions about what technologies I could and couldn’t use I built a system to maintain a source code tree.  This system connected to SCCS to manage the archiving and versioning of the files, but gave the programmers an easy to use interface for checking out code and working on it.  The system maintained a queue of file requests, removing the tedious task of a programmer having to keep checking to see if a file they needed was available.  This code streamlined the programmer’s workday and speeded up production.
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-5">
+          <!-- CONTACT -->
+          <div class="box clearfix">
+            <h2><i class="fa fa-bullseye ico"></i> Contact</h2>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fa fa-map-marker fa-fw"></span></div>
+              <div class="title pull-right">4306 E. Overlook Dr.</div>
+              <div class="description pull-right">San Diego, CA 94115 US</div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fa fa-phone fa-fw"></span></div>
+              <div class="title only pull-right">(619) 666-6526</div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fa fa-envelope fa-fw"></span></div>
+              <div class="title only pull-right"><a href="/cdn-cgi/l/email-protection#fa889598d495d49895958e92ba9d979b9396d4999597" target="_blank"><span class="__cf_email__" data-cfemail="4e3c212c6021602c21213a260e29232f2722602d2123">[email&#160;protected]</span><script cf-hash='f9e31' type="text/javascript">
+/* <![CDATA[ */!function(){try{var t="currentScript"in document?document.currentScript:function(){for(var t=document.getElementsByTagName("script"),e=t.length;e--;)if(t[e].getAttribute("cf-hash"))return t[e]}();if(t&&t.previousSibling){var e,r,n,i,c=t.previousSibling,a=c.getAttribute("data-cfemail");if(a){for(e="",r=parseInt(a.substr(0,2),16),n=2;a.length-n;n+=2)i=parseInt(a.substr(n,2),16)^r,e+=String.fromCharCode(i);e=document.createTextNode(e),c.parentNode.replaceChild(e,c)}}}catch(u){}}();/* ]]> */</script></a></div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fa fa-github-square fa-fw"></span></div>
+              <div class="title pull-right">Github</div>
+              <div class="description pull-right"><a href="https:&#x2F;&#x2F;github.com&#x2F;eoghain" target="_blank">https:&#x2F;&#x2F;github.com&#x2F;eoghain</a></div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fa fa-linkedin-square fa-fw"></span></div>
+              <div class="title pull-right">LinkedIn</div>
+              <div class="description pull-right"><a href="www.linkedin.com&#x2F;in&#x2F;robobooth" target="_blank">www.linkedin.com&#x2F;in&#x2F;robobooth</a></div>
+            </div>
+          </div>
+          <!-- EDUCATION -->
+          <div class="box">
+            <h2><i class="fa fa-university ico"></i> Education</h2>
+            <ul id="education" class="clearfix">
+              <li>
+                <div class="year pull-left">1986 1990</div>
+                <div class="description pull-right">
+                  <h3>Grossmont High School</h3>
+                  
+                  <p>General Education</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <!-- SKILLS -->
+          <div class="box">
+            <h2><i class="fa fa-tasks ico"></i> Skills</h2>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  iOS Development
+                  <span class="skill-level">Master</span>
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "skill badge">iOS</span>
+                <span class= "skill badge">Objective-C</span>
+                <span class= "skill badge">CocoaTouch</span>
+                <span class= "skill badge">CoreData</span>
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  APIs
+                  <span class="skill-level">Master</span>
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "skill badge">REST</span>
+                <span class= "skill badge">JSON</span>
+                <span class= "skill badge">Design</span>
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Web Development
+                  <span class="skill-level">Intermediate</span>
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "skill badge">C#</span>
+                <span class= "skill badge">PHP</span>
+                <span class= "skill badge">Javascript</span>
+                <span class= "skill badge">CSS</span>
+                <span class= "skill badge">HTML</span>
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Support
+                  <span class="skill-level">Intermediate</span>
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "skill badge">SQL</span>
+                <span class= "skill badge">Python</span>
+                <span class= "skill badge">XML</span>
+              </div>
+            </div>
+          </div>
+          <!-- LANGUAGES -->
+          <div class="box">
+            <h2><i class="fa fa-language ico"></i> Languages</h2>
+            <ul class="list-group">
+              <li class=" list-group-item">English<span class="skill badge pull-right">Native speaker</span></li>
+            </ul>
+          </div>
+          <div class="box">
+            <h2><i class= "fa fa-check-square ico"></i> References</h2>
+            <blockquote>
+              <div>Rob is an excellent developer to work with. He’s passionate about the design of the products he works on and we would often collaborate on design decisions. Rob is one of those developers who will fight for the right solution to a product even if its not the popular idea. Once he’s got a problem to solve he will often run with it and try to find the best and most innovative way to solve the problem. He is a great person to work with and I will miss collaborating with him on projects.</div>
+              <footer>
+                <a href="" target= "_blank">Noelle Stransky</a>
+              </footer>
+            </blockquote><br>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- JQUERY -->
+    <script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
+    <!-- BOOTSTRAP -->
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+  <script type="text/javascript">
+/* <![CDATA[ */
+(function(){try{var s,a,i,j,r,c,l=document.getElementsByTagName("a"),t=document.createElement("textarea");for(i=0;l.length-i;i++){try{a=l[i].getAttribute("href");if(a&&a.indexOf("/cdn-cgi/l/email-protection") > -1  && (a.length > 28)){s='';j=27+ 1 + a.indexOf("/cdn-cgi/l/email-protection");if (a.length > j) {r=parseInt(a.substr(j,2),16);for(j+=2;a.length>j&&a.substr(j,1)!='X';j+=2){c=parseInt(a.substr(j,2),16)^r;s+=String.fromCharCode(c);}j+=1;s+=a.substr(j,a.length-j);}t.innerHTML=s.replace(/</g,"&lt;").replace(/>/g,"&gt;");l[i].setAttribute("href","mailto:"+t.value);}}catch(e){}}}catch(e){}})();
+/* ]]> */
+</script>
+</body>
+</html>
