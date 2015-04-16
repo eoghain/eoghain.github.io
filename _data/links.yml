@@ -3,9 +3,8 @@
 
 - url: /about
   title: About
-
-- url: /resume
-  title: Resume
-  
 - url: /projects
   title: Projects
+  
+- url: /resume
+  title: Resume
