@@ -1,4 +1,3 @@
-# Site settings
 title: 3 Screens Development
 email: rob.o.booth@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
@@ -6,10 +5,20 @@ description: > # this means to ignore newlines until "baseurl:"
   developing applications for our distributed world.  "3&nbsp;Screens" means
   taking into consideration the environment your application will be 
   called upon to run in (e.g. Browser, Tablet, Phone, Television, In-Dash car screen, ...).
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://eoghain.github.io" # the base hostname & protocol for your site
+
+markdown: redcarpet
+highlighter: null
+permalink: /:title
+
+url: "http://eoghain.github.io"
+baseurl:
+
+redcarpet:
+  extensions: [strikethrough, tables]
+
+sass:
+  sass_dir: public/css
+  style: :compressed
+  
 # twitter_username: jekyllrb
 github_username:  eoghain
-
-# Build settings
-markdown: redcarpet
