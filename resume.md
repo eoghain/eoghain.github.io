@@ -3,7 +3,7 @@ layout: page
 title: Resume
 permalink: /resume/
 ---
-# Rob Booth
+# Rob Booth 
 
 Email: [rob.o.booth@gmail.com](mailto:rob.o.booth@gmail.com)  
 
