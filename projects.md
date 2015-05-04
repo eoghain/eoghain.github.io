@@ -4,6 +4,14 @@ title: Projects
 permalink: /projects/
 ---
 
+# Stateful Table View Pattern
+
+A small `UITableViewController` that enforces a `State Machine` design pattern on the developer.  This was built because most table views that I've built in the past require the ability to show a loading screen as well as an empty data set screen.  Unfortunately when staring to design a table view most everyone starts by building the populated view, and then attempt to shoe horn in the loading, empty, and error states later.   These classes help you to separate out the multiple states keeping their code clean, understandable, maintainable, and easily expandable.
+
+![Storyboard](https://raw.githubusercontent.com/eoghain/RBStatefulTableViewController/master/Screenshots/TableViewStoryboard.png)
+
+----
+
 # Info Folder Collection View Layout
 
 An `UICollectionViewLayout` that uses supplemental views to display a folder below a cell that looks like the screen was split. Mimics the pre iOS7 springboard groups visualization. Wrote this because all of the other "folder" controls like this use a screen shot to do the splitting, but I wanted my collection view to still be functional even with the folder open.
@@ -13,6 +21,7 @@ An `UICollectionViewLayout` that uses supplemental views to display a folder bel
 ![Example](https://raw.githubusercontent.com/eoghain/RBCollectionViewInfoFolderLayout/master/screenshots/portrait.png)
 
 -----
+
 # Balanced Column Layout
 
 A` UICollectionViewLayout` that displays your cells in a variable number of columns that fit to the bounds of the CollectionView. Why? Cause every other layout that attempts to mimic the Pintrest waterfall layout (as this does) wants you to set the number of columns from the outside and I wanted my layout to figure that out for me so I didn't have to deal with it in the rotation logic. Also I wanted a single layout setup for iPhone and iPad resolutions, and whatever comes next.
