@@ -2,7 +2,7 @@
 layout: project
 title: Stacks Controller
 repo: https://github.com/eoghain/RBStacksController
-image_url:
+image_url: https://raw.githubusercontent.com/eoghain/RBStacksController/master/Reveal.png
 date: 2013-09-03
 ---
 
