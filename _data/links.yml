@@ -5,8 +5,8 @@
   title: About
 
 - url: /projects
-  title: projects
-  icon: <i class="fa fa-github" style="font-size:125%"></i>
+  title: Projects
+  icon: <i class="fa fa-github" style="font-size:110%"></i>
 
 - url: /resume
   title: Resume
