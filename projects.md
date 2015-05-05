@@ -12,6 +12,8 @@ This was built because most of the table views that I've built in the past requi
 
 `RBStatefulTableViewController` and `RBTableViewState` help you to separate out the multiple states keeping their code clean, understandable, maintainable, and easily expandable.
 
+[Repository](https://github.com/eoghain/RBStatefulTableViewController)
+
 ![Storyboard](https://raw.githubusercontent.com/eoghain/RBStatefulTableViewController/master/Screenshots/TableViewStoryboard.png)
 
 ----
