@@ -4,7 +4,7 @@
 - url: /about
   title: About
 
-- url: /projects
+- url: /projects.html
   title: Projects
   icon: <i class="fa fa-github" style="font-size:110%"></i>
 
