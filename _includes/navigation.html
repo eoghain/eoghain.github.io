@@ -1,6 +1,11 @@
 <nav class="col span_10 top-navbar">
   {% for link in site.data.links %}
-  <a href="{{ link.url }}" title="{{ link.title }}"
-     {% if page.title == link.title %}class="current-page"{% endif %}>{{ link.title }}</a>
+  <a href="{{ link.url }}" title="{{ link.title }}" {% if page.title == link.title %}class="current-page"{% endif %}>
+    {% if link.icon %}
+      {{ link.icon }}
+    {% else %}
+      {{ link.title }}
+    {% endif %}
+ </a>
   {% endfor %}
 </nav>

@@ -3,8 +3,10 @@
 
 - url: /about
   title: About
+
 - url: /projects
-  title: Projects
-  
+  title: projects
+  icon: <i class="fa fa-github"></i>
+
 - url: /resume
   title: Resume
