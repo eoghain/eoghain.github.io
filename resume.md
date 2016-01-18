@@ -41,7 +41,7 @@ Joined the TurboTax Universal team to help support shipping the 2015 Tax Year pr
 * Redesigned training interface to be more understandable.
 * Squashed many bugs and memory leaks that prevented training application from running more that 5 minutes at a time.
 
-Took ownership of the application interface to Brain Corporations flagship product BrainOS.  I was responsible for designing and developing the application that roboticists will use to interface and train their BrainOS enabled robots.  Worked with a small team to identify the weaknesses in current Robotic Operating Systems (ROS) and design and build a more robust and developer friendly replacement.  Worked to cross-compile and embed a C++ application into iOS devices making them a 1st class citizen in the distributed robotic environment that is BrainOS.
+Took ownership of the application interface to Brain Corporation's flagship product BrainOS.  I was responsible for designing and developing the application that roboticists will use to interface and train their BrainOS enabled robots.  Worked with a small team to identify the weaknesses in current Robotic Operating Systems (ROS) and design and build a more robust and developer friendly replacement.  Worked to cross-compile and embed a C++ application into iOS devices making them a 1st class citizen in the distributed robotic environment that is BrainOS.
 
 ### Principal Software Engineer / Solutions Architect, [Bridgepoint Education Inc](http://bridgepointeducation.com)
 ##### 2008-01-01 - 2014-09-01
