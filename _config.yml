@@ -6,7 +6,6 @@ description: > # this means to ignore newlines until "baseurl:"
   taking into consideration the environment your application will be 
   called upon to run in (e.g. Browser, Tablet, Phone, Television, In-Dash car screen, ...).
 
-markdown: redcarpet
 highlighter: rouge
 permalink: /:title
 
