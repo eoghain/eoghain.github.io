@@ -28,7 +28,7 @@ For the last 6 years I've been working exclusively in the mobile space and am in
 ## Work
 
 ### Software Engineer - Contractor, [Intuit Inc.](http://intuit.com)
-#### 2015-08-10
+***2015-08-10***
 
 * Took it on myself to redesign the layout engine for displaying tax forms on iPad devices to be more robust and easily understood.
 * Help spearhead the efforts to remove warnings from the code base and cleaning up unit tests for a more robust code base.
@@ -36,7 +36,7 @@ For the last 6 years I've been working exclusively in the mobile space and am in
 Joined the TurboTax Universal team to help support shipping the 2015 Tax Year product.  I jumped right in helping the team to close out bugs and implement features.  Worked closely with the team sharing my knowledge and even helped mentor some interns and co-ops.
 
 ### Software Engineer, [Brain Corporation](http://braincorporation.com)
-#### 2014-09-01 - 2015-08-01
+#### 2014-09-01 - 2015-08-01 ####
 
 * Redesigned training interface to be more understandable.
 * Squashed many bugs and memory leaks that prevented training application from running more that 5 minutes at a time.
