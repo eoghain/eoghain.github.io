@@ -137,4 +137,5 @@ With only an outline and instructions about what technologies I could and couldn
 
 ## References
 ***Noelle Stransky***
+
 > Rob is an excellent developer to work with. He’s passionate about the design of the products he works on and we would often collaborate on design decisions. Rob is one of those developers who will fight for the right solution to a product even if its not the popular idea. Once he’s got a problem to solve he will often run with it and try to find the best and most innovative way to solve the problem. He is a great person to work with and I will miss collaborating with him on projects.
