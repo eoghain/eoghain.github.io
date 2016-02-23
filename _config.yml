@@ -7,7 +7,7 @@ description: > # this means to ignore newlines until "baseurl:"
   called upon to run in (e.g. Browser, Tablet, Phone, Television, In-Dash car screen, ...).
 
 markdown: redcarpet
-highlighter: pygments
+highlighter: rouge
 permalink: /:title
 
 url: "http://eoghain.github.io"
