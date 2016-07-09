@@ -1,0 +1,59 @@
+---
+layout: page
+title: Portfolio
+---
+
+<section class="archive">
+{% assign years = 'None' %}
+{% assign projects = '' %}
+{% for post in site.pages reversed %}
+    {% if post.layout == 'portfolio' %}
+        {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+        {% unless years contains year %}
+            {% if projects.size > 0 %}</div></div><!-- 2 -->{% endif %}
+            <div class="bundle row gutters fadeInDown animated test2">
+                <h2 class="post-year col span_2">{{ post.date | date: '%Y' }}</h2>
+                <div class="posts-by-year col span_10">
+        {% endunless %}
+        {% capture years %}{{ years }}||{{year}}{% endcapture %}
+        <article class="row gutters">
+            <img src="{{ post.image_url }}" class="col span_1"/>
+            <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}" class="col span_7">{{ post.title }}</a>
+            <br>
+            <div class="col span_7">
+              {{ post.blurb }}
+            </div>
+            
+            <!-- <div class="post-date col span_4">
+                <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%-d %B" }}</time>
+            </div> -->
+        </article>
+        {% capture projects %}{{ projects }}*{% endcapture %}
+    {% endif %}
+{% endfor %}
+{% if projects.size > 0 %}</div></div><!-- 3 -->{% endif %}
+</section>
+
+## TurboTax (Universal) 
+Contracted with Intuit to help ship the Tax Year 2015 version of TurboTax for iOS.
+
+[App Store Link](https://itunes.apple.com/us/app/turbotax-tax-preparation-complete/id940247939?mt=8)
+
+## Advntur (iPhone)
+[App Store Link](https://itunes.apple.com/us/app/advntur/id1078851158?ls=1&mt=8)
+
+## Thuze Ebook Reader (Universal)
+[App Store Link](https://itunes.apple.com/us/app/thuze/id490002342?mt=8)
+
+## Ashford University Mobile Classroom (iPhone)
+[App Store Link](https://itunes.apple.com/us/app/ashford-university-mobile/id440722504?mt=8)
+
+## Ashford University Mobile Classroom (iPad)
+[App Store Link](https://itunes.apple.com/us/app/ashford-university/id467730770?mt=8)
+
+## Rockies University Mobile Classroom (iPhone)
+[App Store Link](https://itunes.apple.com/us/app/university-rockies-mobile/id407331984?mt=8)
+
+## Rockies University Mobile Classroom (iPad)
+[App Store Link](https://itunes.apple.com/us/app/university-of-the-rockies/id467758326?mt=8)
+

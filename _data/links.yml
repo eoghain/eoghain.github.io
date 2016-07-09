@@ -8,5 +8,8 @@
   title: Projects
   icon: <i class="fa fa-github" style="font-size:110%"></i>
 
+- url: /portfolio.html
+  title: Portfolio
+  
 - url: /resume
   title: Resume
