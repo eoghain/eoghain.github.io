@@ -21,16 +21,28 @@
       },
       {
         "network": "LinkedIn",
-        "url": "www.linkedin.com/in/robobooth"
+        "url": "http://www.linkedin.com/in/robobooth"
       }
     ]
   },
   "work": [
     {
+      "company": "ResMed Inc",
+      "position": "Senior Software Engineer",
+      "website": "http://resmed.com",
+      "startDate": "2016-03-30",
+      "summary": "Helped ResMed bring their newest sleep apnea machine to market using mobile devices as the interface for control and information gathering.  Pulling the interface out of the device and putting it in a mobile application allows us to create a much richer interface than any device with limited buttons and a VFD display.",
+      "highlights": [
+        "Built a rules engine to convert between raw data and user interface elements allowing for clear separation between the two, and placing of rules in a data file instead of littering the code with fragile validation tests.",
+        "Helped redesign and refactor various pieces of the codebase to be easier to maintain and extend."
+      ]
+    },
+    {
       "company": "Intuit Inc",
       "position": "Software Engineer - Contractor",
       "website": "http://intuit.com",
       "startDate": "2015-08-10",
+      "endDate": "2016-03-25",
       "summary": "Joined the TurboTax Universal team to help support shipping the 2015 Tax Year product.  I jumped right in helping the team to close out bugs and implement features.  Worked closely with the team sharing my knowledge and even helped mentor some interns and co-ops.",
       "highlights": [
         "Took it on myself to redesign the layout engine for displaying tax forms on iPad devices to be more robust and easily understood.",
