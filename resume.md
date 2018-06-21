@@ -27,12 +27,19 @@ For the last 6 years I've been working exclusively in the mobile space and am in
 
 ## Work
 
+### Senior Software Engineer, [Intuit Inc.](http://intuit.com)
+***2016-11-15***
+
+* Rewrote the companies tax estimation/forecasting tool TaxCaster from the ground up in Swift using current best practices and even building cross platform reusable data structures.
+* Built the Drivers License import process to remove the tedium and error prone process of manually entry of the users personal information.  Build a AAMVA data parser to work across all currently published versions of the spec.
+
+Joined the TurboTax Universal team to build and ship the iOS version of TurboTax.  Having contracted for this team previously I was able to get up to speed quickly and make valuable contributions.
+
 ### Senior Software Engineer, [ResMed Inc.](http://resmed.com)
-***2016-03-30***
+***2016-03-30 - 2016-11-15***
 
 * Built a rules engine to convert between raw data and user interface elements allowing for clear separation between the two, and placing of rules in a data file instead of littering the code with fragile validation tests.
 * Helped redesign and refactor various pieces of the codebase to be easier to maintain and extend.
-
 
 Helped ResMed bring their newest sleep apnea machine to market using mobile devices as the interface for control and information gathering.  Pulling the interface out of the device and putting it in a mobile application allows us to create a much richer interface than any device with limited buttons and a VFD display.
 
@@ -134,7 +141,7 @@ With only an outline and instructions about what technologies I could and couldn
 
 ## Skills
 
-* Master in iOS Development (iOS, Objective-C, CocoaTouch, CoreData)
+* Master in iOS Development (iOS, Swift, Objective-C, CocoaTouch, CoreData)
 * Master in APIs (REST, JSON, Design)
 * Intermediate in Web Development (C#, PHP, Javascript, CSS, HTML)
 * Intermediate in Support (SQL, Python, XML)
