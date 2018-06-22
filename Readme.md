@@ -12,6 +12,7 @@
 * nokogiri missing zlib install with system libraries `gem install nokogiri -- --use-system-libraries` or `bundle config build.nokogiri --use-system-libraries` then `bundle install`
 
 ## Blogging
+To add a blog post put a new file in the `_posts` directory using the `YYYY-MM-DD-title.md` file format.
 
 ## About
 Simple enough, just edit the about.md file in the root director
@@ -21,6 +22,9 @@ Any github repositories you want to showcase should go here and will be displaye
 
 ## Portfolio
 Any published applications that you've worked on should go here.  Just add a new file using the `YYYY-MM-DD-title.md` file format to the projects directory.
+
+## Tutorials
+Experimental section for building a referential tutorial blogging system
 
 ## Resume
 Resume is a bit more difficult as it's build using the `resume.json` file and converted via the [JSON Resume](https://jsonresume.org/) tools.  You'll need to install those tools and use them to re-generate after update the file.
