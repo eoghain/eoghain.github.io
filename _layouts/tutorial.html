@@ -10,16 +10,16 @@ layout: default
 	  <ul class="prereqs">
       <h3 class="prereqs"> Prerequisites </h3>
       {% for prereq in page.prereqs %}
-      {% for prereqPage in site.pages %}
-      {% if prereqPage.title == prereq %}
-      <li class="prereqs">
-        <img src="{{ prereqPage.image_url }}" />
-        <h3><a href="{{ prereqPage.url }}">{{ prereqPage.title }}</a></h3>
-        <p>{{ prereqPage.blurb }}</p>
-      </li>
-      {% break %}
-      {% endif %}
-      {% endfor %}
+        {% for prereqPage in site.pages %}
+          {% if prereqPage.title == prereq %}
+            <li class="prereqs">
+              <img src="{{ prereqPage.image_url }}" />
+              <h3><a href="{{ prereqPage.url }}">{{ prereqPage.title }}</a></h3>
+              <p>{{ prereqPage.blurb }}</p>
+            </li>
+            {% break %}
+          {% endif %}
+        {% endfor %}
       {% endfor %}
     </ul>
   </div>
@@ -27,15 +27,19 @@ layout: default
 
   {{ content }}
   
-  {% assign pageNumber = 0 %}
-  {% for linked in site.pages %}
-  {% if linked.group == page.group %}
-  {% assign pageNumber = pageNumber | plus:1 %}
-  {% if linked.url == page.url %}
-  {{ pageNumber }}
-  {% else %}
-  <a href="{{ linked.url }}">{{ pageNumber }}</a>
+  {% if page.group %}
+    {% assign pageNumber = 0 %}
+    
+    {% for linked in site.pages %}
+      {% if linked.group == page.group %}
+        {% assign pageNumber = pageNumber | plus:1 %}
+        
+        {% if linked.url == page.url %}
+          {{ pageNumber }}
+        {% else %}
+          <a href="{{ linked.url }}">{{ pageNumber }}</a>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
   {% endif %}
-  {% endif %}
-  {% endfor %}
 </article>
