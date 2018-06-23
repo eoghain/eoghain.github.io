@@ -4,6 +4,26 @@ layout: default
 
 <article class="single row gutters">
   <h2>{{ page.title }}</h2>
+  <!-- Parts list of multi-part tutorials -->
+  {% if page.group %}
+  <div class="partslist">
+    <span class="partslist">Parts: </span>
+    {% assign pageNumber = 0 %}
+    
+    {% for linked in site.pages %}
+      {% if linked.group == page.group %}
+        {% assign pageNumber = pageNumber | plus:1 %}
+        
+        {% if linked.url == page.url %}
+          {{ pageNumber }}
+        {% else %}
+          <a href="{{ linked.url }}" class="partslist">{{ pageNumber }}</a>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+  </div>
+  {% endif %}
+  <!-- End Parts list of multi-part tutorials -->
   
   {% if page.prereqs %}
   <div class="prereqs">
@@ -27,7 +47,10 @@ layout: default
 
   {{ content }}
   
+  <!-- Parts list of multi-part tutorials -->
   {% if page.group %}
+  <div class="partslist">
+    <span class="partslist">Parts: </span>
     {% assign pageNumber = 0 %}
     
     {% for linked in site.pages %}
@@ -37,9 +60,11 @@ layout: default
         {% if linked.url == page.url %}
           {{ pageNumber }}
         {% else %}
-          <a href="{{ linked.url }}">{{ pageNumber }}</a>
+          <a href="{{ linked.url }}" class="partslist">{{ pageNumber }}</a>
         {% endif %}
       {% endif %}
     {% endfor %}
+  </div>
   {% endif %}
+  <!-- End Parts list of multi-part tutorials -->
 </article>

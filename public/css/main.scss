@@ -135,6 +135,7 @@ footer {
   background-color: #272822;
   color: #f8f8f2;
   line-height: 1;
+  overflow-x: scroll;
 
   code {
     font-size: .7rem;
@@ -387,5 +388,16 @@ li.prereqs:hover {
   background: #eee;
   cursor: pointer;
 }
+
+/*============================================================================*/
+
+div.partslist {
+    margin-top: -15px;
+    margin-bottom: 25px;
+}
+
+/*===============================[ partslist ]================================*/
+
+
 
 /*============================================================================*/
