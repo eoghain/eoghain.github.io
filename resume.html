@@ -1,10 +1,10 @@
 <!DOCTYPE html><html lang="en"><head><meta charset="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><meta name="viewport" content="width=device-width, initial-scale=1"/><title>Rob Booth</title><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/><style>@font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?9yug7q');
-  src:  url('fonts/icomoon.eot?9yug7q#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?9yug7q') format('truetype'),
-    url('fonts/icomoon.woff?9yug7q') format('woff'),
-    url('fonts/icomoon.svg?9yug7q#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?z1lat9');
+  src:  url('fonts/icomoon.eot?z1lat9#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?z1lat9') format('truetype'),
+    url('fonts/icomoon.woff?z1lat9') format('woff'),
+    url('fonts/icomoon.svg?z1lat9#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,20 +24,64 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-instagram:before {
-  content: "\e905";
+.icon-gitlab .path1:before {
+  content: "\e906";
+  color: rgb(252, 109, 38);
 }
-.icon-trophy:before {
-  content: "\e605";
+.icon-gitlab .path2:before {
+  content: "\e907";
+  margin-left: -1em;
+  color: rgb(226, 67, 41);
 }
-.icon-office:before {
-  content: "\e606";
+.icon-gitlab .path3:before {
+  content: "\e908";
+  margin-left: -1em;
+  color: rgb(252, 109, 38);
 }
-.icon-clock:before {
-  content: "\e60a";
+.icon-gitlab .path4:before {
+  content: "\e909";
+  margin-left: -1em;
+  color: rgb(252, 163, 38);
 }
-.icon-reddit:before {
-  content: "\e609";
+.icon-gitlab .path5:before {
+  content: "\e90a";
+  margin-left: -1em;
+  color: rgb(226, 67, 41);
+}
+.icon-gitlab .path6:before {
+  content: "\e90b";
+  margin-left: -1em;
+  color: rgb(252, 109, 38);
+}
+.icon-gitlab .path7:before {
+  content: "\e90c";
+  margin-left: -1em;
+  color: rgb(252, 163, 38);
+}
+.icon-gitlab .path8:before {
+  content: "\e90d";
+  margin-left: -1em;
+  color: rgb(226, 67, 41);
+}
+.icon-meetup .path1:before {
+  content: "\e901";
+  color: rgb(255, 255, 255);
+}
+.icon-meetup .path2:before {
+  content: "\e902";
+  margin-left: -1.5em;
+  color: rgb(240, 1, 1);
+}
+.icon-meetup .path3:before {
+  content: "\e903";
+  margin-left: -1.5em;
+  color: rgb(3, 3, 3);
+}
+.icon-blogger:before {
+  content: "\e900";
+}
+.icon-exercism:before {
+  content: "\e601";
 }
 .icon-telegram:before {
   content: "\e904";
@@ -147,25 +191,20 @@
 .icon-facebook:before {
   content: "\f230";
 }
-.icon-meetup .path1:before {
-  content: "\e901";
-  color: rgb(255, 255, 255);
+.icon-instagram:before {
+  content: "\e905";
 }
-.icon-meetup .path2:before {
-  content: "\e902";
-  margin-left: -1.5em;
-  color: rgb(240, 1, 1);
+.icon-trophy:before {
+  content: "\e605";
 }
-.icon-meetup .path3:before {
-  content: "\e903";
-  margin-left: -1.5em;
-  color: rgb(3, 3, 3);
+.icon-office:before {
+  content: "\e606";
 }
-.icon-blogger:before {
-  content: "\e900";
+.icon-clock:before {
+  content: "\e60a";
 }
-.icon-exercism:before {
-  content: "\e601";
+.icon-reddit:before {
+  content: "\e609";
 }
 .icon-profile:before {
   content: "\e600";
@@ -185,12 +224,6 @@
 .icon-newspaper:before {
   content: "\e607";
 }
-.icon-dots-three-horizontal:before {
-  content: "\e60b";
-}
-.icon-thumbs-up:before {
-  content: "\e604";
-}
 .icon-chevron-down:before {
   content: "\e60c";
 }
@@ -206,7 +239,6 @@
 .icon-board:before {
   content: "\e608";
 }
-
 
 .relative {
   position: relative;
@@ -247,6 +279,15 @@
 .label-keyword:last-child {
   margin-right: 0;
 }
+.label-keyword p {
+  margin: 0;
+}
+.label-keyword a {
+  color: white;
+}
+.label-keyword a:hover {
+  text-decoration: none;
+}
 .link-disguise {
   color: inherit;
 }
@@ -263,7 +304,7 @@
 }
 .fs-lg {
   font-size: 1.33333333em;
-  line-height: .75em;
+  line-height: 0.75em;
   vertical-align: -15%;
 }
 .fs-2x {
@@ -284,10 +325,11 @@
   padding: 0;
   outline: none !important;
 }
+/* the version when the icon file is last updated */
 @font-face {
   font-family: 'jst-elegant';
-  src: url("//unpkg.com/jsonresume-theme-elegant@1.10.1/assets/icomoon/fonts/icomoon.eot?f218wo");
-  src: url("//unpkg.com/jsonresume-theme-elegant@1.10.1/assets/icomoon/fonts/icomoon.eot?f218wo#iefix") format('embedded-opentype'), url("//unpkg.com/jsonresume-theme-elegant@1.10.1/assets/icomoon/fonts/icomoon.ttf?f218wo") format('truetype'), url("//unpkg.com/jsonresume-theme-elegant@1.10.1/assets/icomoon/fonts/icomoon.woff?f218wo") format('woff'), url("//unpkg.com/jsonresume-theme-elegant@1.10.1/assets/icomoon/fonts/icomoon.svg?f218wo#icomoon") format('svg');
+  src: url("//unpkg.com/jsonresume-theme-elegant@1.12.0/assets/icomoon/fonts/icomoon.eot?f218wo");
+  src: url("//unpkg.com/jsonresume-theme-elegant@1.12.0/assets/icomoon/fonts/icomoon.eot?f218wo#iefix") format('embedded-opentype'), url("//unpkg.com/jsonresume-theme-elegant@1.12.0/assets/icomoon/fonts/icomoon.ttf?f218wo") format('truetype'), url("//unpkg.com/jsonresume-theme-elegant@1.12.0/assets/icomoon/fonts/icomoon.woff?f218wo") format('woff'), url("//unpkg.com/jsonresume-theme-elegant@1.12.0/assets/icomoon/fonts/icomoon.svg?f218wo#icomoon") format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -672,12 +714,12 @@ body {
   color: #d31e40;
 }
 .link-stackoverflow {
-  color: #f48024;
+  color: #8e8e92;
 }
 .link-stackoverflow:hover,
 .link-stackoverflow:focus {
   text-decoration: none;
-  color: #c3661c;
+  color: #747479;
 }
 .link-stackexchange {
   color: #62b0df;
@@ -958,49 +1000,75 @@ body {
     page-break-before: always;
   }
 }
-</style></head><body itemscope="itemscope" itemtype="http://schema.org/Person"><div class="container-fluid"><div class="row main clearfix"><a class="js-floating-nav-trigger floating-nav-trigger" href="#"><i class="icon-bars"></i><span class="close-icon">&times;</span></a><nav class="floating-nav js-floating-nav"><ul class="list-unstyled"><li><a href="#about"><i class="mr-10 icon-board"></i>About</a></li><li><a href="#work-experience"><i class="mr-10 icon-office"></i>Work Experience</a></li><li><a href="#skills"><i class="mr-10 icon-tools"></i>Skills</a></li><li><a href="#education"><i class="mr-10 icon-graduation-cap"></i>Education</a></li><li><a href="#references"><i class="mr-10 icon-thumbs-up"></i>References</a></li></ul></nav><section class="col-md-3 card-wrapper profile-card-wrapper affix"><div class="card profile-card"><span class="profile-pic-container"><div class="profile-pic"><img class="media-object img-circle center-block" data-src="holder.js/100x100" alt="Rob Booth" src="https://raw.githubusercontent.com/eoghain/eoghain.github.io/master/images/headshot.jpg" itemprop="image"/></div><div class="name-and-profession text-center"><h3 itemprop="name"><b>Rob Booth</b></h3><h5 class="text-muted" itemprop="jobTitle">Software Engineer</h5></div></span><hr/><div class="contact-details clearfix"><div class="detail"><span class="icon"><i class="icon fs-lg icon-location"></i></span><span class="info">4306 E. Overlook Dr., San Diego, California, US, CA 94115</span></div><div class="detail"><span class="icon"><i class="icon fs-lg icon-phone"></i></span><span class="info" itemprop="telephone">(619) 666-6526</span></div><div class="detail"><span class="icon"><i class="icon fs-lg icon-mail"></i></span><span class="info"><a class="link-disguise" href="mailto:rob.o.booth@gmail.com" itemprop="email">rob.o.booth@gmail.com</a></span></div><div class="detail"><span class="icon"><i class="icon fs-lg icon-link"></i></span><span class="info"><a href="https://eoghain.github.io" target="_blank">https://eoghain.github.io</a></span></div><div class="detail"><span class="icon" title="Languages I speak"><i class="icon fs-lg icon-language"></i></span><span class="info">English</span></div></div><hr/><div class="social-links text-center"><div><a class="fs-2x social-link link-github icon-github" href="https://github.com/eoghain" target="_blank" data-toggle="tooltip" title="Rob Booth on Github"></a><a class="fs-2x social-link link-linkedin icon-linkedin" href="http://www.linkedin.com/in/robobooth" target="_blank" data-toggle="tooltip" title="Rob Booth on LinkedIn"></a></div></div></div></section><section class="col-md-9 card-wrapper pull-right"><div class="card background-card"><h4 class="text-uppercase">Background</h4><hr/><div class="background-details"><div class="detail" id="about"><div class="icon"><i class="fs-lg icon-board"></i><span class="mobile-title">About</span></div><div class="info"><h4 class="title text-uppercase">About</h4><div class="card card-nested"><div class="content mop-wrapper" itemprop="description"><p>I've been working as a software engineer for over 15 years.  I've been involved in every aspect of the Software Development Life Cycle (SDLC) from planning to deployment.  I've never met a challenge that I couldn't meet and typically meet ahead of schedule.</p>
-<p>For the last 6 years I've been working exclusively in the mobile space and am intrigued by the ability to have ubiquitous computing with us wherever we go.  Designing applications that allow users to interact with them weather they are on a PC, tablet, phone, or even TV is a challenge I find very rewarding.</p>
-</div></div></div></div><div class="detail" id="work-experience"><div class="icon"><i class="fs-lg icon-office"></i><span class="mobile-title">Work Experience</span></div><div class="info"><h4 class="title text-uppercase">Work Experience</h4><ul class="list-unstyled clear-margin"><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><i class="icon-circle current-event" rel="tooltip" title="Currently Working" data-placement="left"></i><strong>Senior Software Engineer</strong>,&nbsp;<a href="http://intuit.com" target="_blank">Intuit Inc</a></p><p class="text-muted"><small><span class="space-right">Nov, 2016 - Present</span></small></p><div class="mop-wrapper space-bottom"><p>Joined the TurboTax Universal team to build and ship the iOS version of TurboTax.  Having contracted for this team previously I was able to get up to speed quickly and make valuable contributions.</p>
+</style></head><body itemscope="itemscope" itemtype="http://schema.org/Person"><div class="container-fluid"><div class="row main clearfix"><a class="js-floating-nav-trigger floating-nav-trigger" href="#"><i class="icon-bars"></i><span class="close-icon">&times;</span></a><nav class="floating-nav js-floating-nav"><ul class="list-unstyled"><li><a href="#about"><i class="mr-10 icon-board"></i>About</a></li><li><a href="#work-experience"><i class="mr-10 icon-office"></i>Work Experience</a></li><li><a href="#skills"><i class="mr-10 icon-tools"></i>Skills</a></li><li><a href="#education"><i class="mr-10 icon-graduation-cap"></i>Education</a></li><li><a href="#references"><i class="mr-10 icon-thumbs-up"></i>References</a></li></ul></nav><section class="col-md-3 card-wrapper profile-card-wrapper affix"><div class="card profile-card"><span class="profile-pic-container"><div class="profile-pic"><img class="media-object img-circle center-block" data-src="holder.js/100x100" alt="Rob Booth" src="https://raw.githubusercontent.com/eoghain/eoghain.github.io/master/images/headshot.jpg" itemprop="image"/></div><div class="name-and-profession text-center"><h3 itemprop="name"><b>Rob Booth</b></h3><h5 class="text-muted" itemprop="jobTitle">Software Engineer</h5></div></span><hr/><div class="contact-details clearfix"><div class="detail"><span class="icon"><i class="icon fs-lg icon-location"></i></span><span class="info">4306 E. Overlook Dr., San Diego, California, US, CA 94115</span></div><div class="detail"><span class="icon"><i class="icon fs-lg icon-phone"></i></span><span class="info" itemprop="telephone">(619) 666-6526</span></div><div class="detail"><span class="icon"><i class="icon fs-lg icon-mail"></i></span><span class="info"><a class="link-disguise" href="mailto:rob.o.booth@gmail.com" itemprop="email">rob.o.booth@gmail.com</a></span></div><div class="detail"><span class="icon"><i class="icon fs-lg icon-link"></i></span><span class="info"><a href="https://eoghain.github.io" target="_blank">https://eoghain.github.io</a></span></div><div class="detail"><span class="icon" title="Languages I speak"><i class="icon fs-lg icon-language"></i></span><span class="info">English</span></div></div><hr/><div class="social-links text-center"><div><a class="fs-2x social-link link-github icon-github" href="https://github.com/eoghain" target="_blank" data-toggle="tooltip" title="Rob Booth on Github"></a><a class="fs-2x social-link link-linkedin icon-linkedin" href="http://www.linkedin.com/in/robobooth" target="_blank" data-toggle="tooltip" title="Rob Booth on LinkedIn"></a></div></div></div></section><section class="col-md-9 card-wrapper pull-right"><div class="card background-card"><h4 class="text-uppercase">Background</h4><hr/><div class="background-details"><div class="detail" id="about"><div class="icon"><i class="fs-lg icon-board"></i><span class="mobile-title">About</span></div><div class="info"><h4 class="title text-uppercase">About</h4><div class="card card-nested"><div class="content mop-wrapper" itemprop="description"><p>I've been working as a software engineer for over 20 years.  I've been involved in every aspect of the Software Development Life Cycle (SDLC) from planning to deployment.  I've never met a challenge that I couldn't meet and typically meet ahead of schedule.</p>
+<p>For over 10 years I've been working exclusively in the mobile space and am intrigued by the ability to have ubiquitous computing with us wherever we go.  Designing applications that allow users to interact with them weather they are on a PC, tablet, phone, or even TV is a challenge I find very rewarding.</p>
+</div></div></div></div><div class="detail" id="work-experience"><div class="icon"><i class="fs-lg icon-office"></i><span class="mobile-title">Work Experience</span></div><div class="info"><h4 class="title text-uppercase">Work Experience</h4><ul class="list-unstyled clear-margin"><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><i class="icon-circle current-event" rel="tooltip" title="Currently Working" data-placement="left"></i><strong>Staff Software Engineer</strong>,&nbsp;</p><p class="text-muted"><small><span class="space-right">Jan, 2020 - Present</span></small></p><div class="mop-wrapper space-bottom"><p>Worked on various teams within Walmart as they took on the audacious task of re-writing there existing online and in-store apps into a single cohesive whole.  I eventually landed as the Team Lead for the iOS Cart development team.  Since we are a shopping app Cart was an integral part and I divided my time between coding, mentoring, and interfacing with external teams that utilized our offering.</p>
+</div><ul><li class="mop-wrapper"><p>Tracked down and idetified a tricky race condition that had to do with when the internal webkit browser code reported that it finished loading and when it was actually finished with rendering SVG content that we needed to interact with.</p>
+</li><li class="mop-wrapper"><p>Mentored multiple developers who moved on to become Team Leads on there own teams.</p>
+</li><li class="mop-wrapper"><p>Took on the responsibility of being the Team Lead for Cart after employee attrition left the team with only a couple of months of total experience on the code base.</p>
+</li><li class="mop-wrapper"><p>Worked to make the team a cohesive unit that supported one another.</p>
+</li><li class="mop-wrapper"><p>Was the main point of contact for various features around the cart experience.</p>
+</li></ul></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><i class="icon-circle current-event" rel="tooltip" title="Currently Working" data-placement="left"></i><strong>Staff Software Engineer</strong>,&nbsp;</p><p class="text-muted"><small><span class="space-right">Nov, 2016 - Present</span></small></p><div class="mop-wrapper space-bottom"><p>Re-joined the TurboTax Universal team and grew into the role of team lead providing direction and mentorship to the team.  Spent my time implementing new features while helping to re-design the code base to be better situated for the future direction of TurboTax.</p>
 </div><ul><li class="mop-wrapper"><p>Rewrote the companies tax estimation/forecasting tool TaxCaster from the ground up in Swift using current best practices and even building cross platform reusable data structures.</p>
 </li><li class="mop-wrapper"><p>Built the Drivers License import process to remove the tedium and error prone process of manually entry of the users personal information.  Build a AAMVA data parser to work across all currently published versions of the spec.</p>
-</li></ul></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Senior Software Engineer</strong>,&nbsp;<a href="http://resmed.com" target="_blank">ResMed Inc</a></p><p class="text-muted"><small><span class="space-right">Mar, 2016 - Nov, 2016</span><span><i class="icon-clock mr-5"></i>7 months</span></small></p><div class="mop-wrapper space-bottom"><p>Helped ResMed bring their newest sleep apnea machine to market using mobile devices as the interface for control and information gathering.  Pulling the interface out of the device and putting it in a mobile application allows us to create a much richer interface than any device with limited buttons and a VFD display.</p>
+</li><li class="mop-wrapper"><p>Mentored many junior developers as well as Interns and Co-ops helping them learn how to work at an actual company as well as to advance their skills.</p>
+</li><li class="mop-wrapper"><p>Worked on cross functional teams to keep back and front end teams coordinated and working towards the same eventual goals.</p>
+</li></ul></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Senior Software Engineer</strong>,&nbsp;</p><p class="text-muted"><small><span class="space-right">Mar, 2016 - Nov, 2016</span><span><i class="icon-clock mr-5"></i>7 months</span></small></p><div class="mop-wrapper space-bottom"><p>Helped ResMed bring their newest sleep apnea machine to market using mobile devices as the interface for control and information gathering.  Pulling the interface out of the device and putting it in a mobile application allows us to create a much richer interface than any device with limited buttons and a VFD display.</p>
 </div><ul><li class="mop-wrapper"><p>Built a rules engine to convert between raw data and user interface elements allowing for clear separation between the two, and placing of rules in a data file instead of littering the code with fragile validation tests.</p>
 </li><li class="mop-wrapper"><p>Helped redesign and refactor various pieces of the codebase to be easier to maintain and extend.</p>
-</li></ul></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Software Engineer - Contractor</strong>,&nbsp;<a href="http://intuit.com" target="_blank">Intuit Inc</a></p><p class="text-muted"><small><span class="space-right">Aug, 2015 - Mar, 2016</span><span><i class="icon-clock mr-5"></i>7 months</span></small></p><div class="mop-wrapper space-bottom"><p>Joined the TurboTax Universal team to help support shipping the 2015 Tax Year product.  I jumped right in helping the team to close out bugs and implement features.  Worked closely with the team sharing my knowledge and even helped mentor some interns and co-ops.</p>
+</li></ul></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Software Engineer - Contractor</strong>,&nbsp;</p><p class="text-muted"><small><span class="space-right">Aug, 2015 - Mar, 2016</span><span><i class="icon-clock mr-5"></i>7 months</span></small></p><div class="mop-wrapper space-bottom"><p>Joined the TurboTax Universal team to help support shipping the 2015 Tax Year product.  I jumped right in helping the team to close out bugs and implement features.  Worked closely with the team sharing my knowledge and even helped mentor some interns and co-ops.</p>
 </div><ul><li class="mop-wrapper"><p>Took it on myself to redesign the layout engine for displaying tax forms on iPad devices to be more robust and easily understood.</p>
 </li><li class="mop-wrapper"><p>Help spearhead the efforts to remove warnings from the code base and cleaning up unit tests for a more robust code base.</p>
-</li></ul></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Software Engineer</strong>,&nbsp;<a href="http://braincorporation.com" target="_blank">Brain Corporation</a></p><p class="text-muted"><small><span class="space-right">Sep, 2014 - Aug, 2015</span><span><i class="icon-clock mr-5"></i>11 months</span></small></p><div class="mop-wrapper space-bottom"><p>Took ownership of the application interface to Brain Corporation's flagship product BrainOS.  I was responsible for designing and developing the application that roboticists will use to interface and train their BrainOS enabled robots.  Worked with a small team to identify the weaknesses in current Robotic Operating Systems (ROS) and design and build a more robust and developer friendly replacement.  Worked to cross-compile and embed a C++ application into iOS devices making them a 1st class citizen in the distributed robotic environment that is BrainOS.</p>
+</li></ul></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Software Engineer</strong>,&nbsp;</p><p class="text-muted"><small><span class="space-right">Sep, 2014 - Aug, 2015</span><span><i class="icon-clock mr-5"></i>11 months</span></small></p><div class="mop-wrapper space-bottom"><p>Took ownership of the application interface to Brain Corporation's flagship product BrainOS.  I was responsible for designing and developing the application that roboticists will use to interface and train their BrainOS enabled robots.  Worked with a small team to identify the weaknesses in current Robotic Operating Systems (ROS) and design and build a more robust and developer friendly replacement.  Worked to cross-compile and embed a C++ application into iOS devices making them a 1st class citizen in the distributed robotic environment that is BrainOS.</p>
 </div><ul><li class="mop-wrapper"><p>Redesigned training interface to be more understandable.</p>
 </li><li class="mop-wrapper"><p>Squashed many bugs and memory leaks that prevented training application from running more that 5 minutes at a time.</p>
-</li></ul></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Principal Software Engineer / Solutions Architect</strong>,&nbsp;<a href="http://bridgepointeducation.com" target="_blank">Bridgepoint Education Inc</a></p><p class="text-muted"><small><span class="space-right">Jan, 2008 - Sep, 2014</span><span><i class="icon-clock mr-5"></i>6 years 8 months</span></small></p><div class="mop-wrapper space-bottom"><p>Was tasked with building a mobile application on apples iOS devices (iPhone,iPad, iPod) to allow students access to there online classroom while on the go.  I took the project from a simple idea to a completed project in just under 6 months by leading a team of 5 developers.  Built server interfaces to both mobile devices and with 3rd party vendors.  Worked with vendors to design and build solutions to bring their tools to our students and employees in a timely and consistent manor.  Worked closely with principal members of the business to bring quality solutions to everyday problems and automate tasks giving employees more time to focus on other aspects of their jobs.</p>
+</li></ul></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Principal Software Engineer / Solutions Architect</strong>,&nbsp;</p><p class="text-muted"><small><span class="space-right">Jan, 2008 - Sep, 2014</span><span><i class="icon-clock mr-5"></i>6 years 8 months</span></small></p><div class="mop-wrapper space-bottom"><p>Was tasked with building a mobile application on apples iOS devices (iPhone,iPad, iPod) to allow students access to there online classroom while on the go.  I took the project from a simple idea to a completed project in just under 6 months by leading a team of 5 developers.  Built server interfaces to both mobile devices and with 3rd party vendors.  Worked with vendors to design and build solutions to bring their tools to our students and employees in a timely and consistent manor.  Worked closely with principal members of the business to bring quality solutions to everyday problems and automate tasks giving employees more time to focus on other aspects of their jobs.</p>
 </div><ul><li class="mop-wrapper"><p>Lead team designing and building a mobile access platform on iOS devices using Objective-C/Cocoa, CoreData, and some CoreAnimation.</p>
 </li><li class="mop-wrapper"><p>Worked within the iOS framework to get the best possible performance out of our application, making web calls on background threads, caching data, etc.</p>
 </li><li class="mop-wrapper"><p>Held architectural oversight of Android version of application</p>
 </li><li class="mop-wrapper"><p>Built C# and PHP interfaces to 3rd party APIs to manage student data.</p>
-</li></ul></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Software Engineer - Contractor</strong>,&nbsp;<a href="http://intertune.com" target="_blank">Intertune</a></p><p class="text-muted"><small><span class="space-right">Sep, 2006 - Aug, 2007</span><span><i class="icon-clock mr-5"></i>11 months</span></small></p><div class="mop-wrapper space-bottom"><p>Helped build, design, and debug web based applications used by brokers in the vehicle transportation industry.</p>
+</li></ul></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Software Engineer - Contractor</strong>,&nbsp;</p><p class="text-muted"><small><span class="space-right">Sep, 2006 - Aug, 2007</span><span><i class="icon-clock mr-5"></i>11 months</span></small></p><div class="mop-wrapper space-bottom"><p>Helped build, design, and debug web based applications used by brokers in the vehicle transportation industry.</p>
 </div><ul><li class="mop-wrapper"><p>Updated existing PHP4 applications to PHP5</p>
 </li><li class="mop-wrapper"><p>Converted procedural code to object oriented</p>
-</li></ul></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Owner / Operator</strong>,&nbsp;RKB Enterprises, LLC.</p><p class="text-muted"><small><span class="space-right">Sep, 2005 - Sep, 2006</span><span><i class="icon-clock mr-5"></i>1 year</span></small></p><div class="mop-wrapper space-bottom"><p>Owned and operated a local Irish pub.  Managed up to 6 employees.  Handled inventory, purchasing, payroll, marketing, and day-to-day operations.</p>
+</li></ul></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Owner / Operator</strong>,&nbsp;</p><p class="text-muted"><small><span class="space-right">Sep, 2005 - Sep, 2006</span><span><i class="icon-clock mr-5"></i>1 year</span></small></p><div class="mop-wrapper space-bottom"><p>Owned and operated a local Irish pub.  Managed up to 6 employees.  Handled inventory, purchasing, payroll, marketing, and day-to-day operations.</p>
 </div><ul><li class="mop-wrapper"><p>Doubled the daily revenue.</p>
-</li></ul></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Software Engineer</strong>,&nbsp;Indyme Electronics Inc.</p><p class="text-muted"><small><span class="space-right">Mar, 2003 - Aug, 2005</span><span><i class="icon-clock mr-5"></i>2 years 6 months</span></small></p><div class="mop-wrapper space-bottom"><p>Used .Net, C#, SOAP, and PHP to design, build and implement a Web Service based tool used to configure remote machines.  Designed and built web based reporting solution.</p>
+</li></ul></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Software Engineer</strong>,&nbsp;</p><p class="text-muted"><small><span class="space-right">Mar, 2003 - Aug, 2005</span><span><i class="icon-clock mr-5"></i>2 years 6 months</span></small></p><div class="mop-wrapper space-bottom"><p>Used .Net, C#, SOAP, and PHP to design, build and implement a Web Service based tool used to configure remote machines.  Designed and built web based reporting solution.</p>
 </div><ul><li class="mop-wrapper"><p>Modified MySQL database design to be better normalized and efficient.</p>
 </li><li class="mop-wrapper"><p>Built PHP based Web Service for interaction with a C# client and the MySQL database.</p>
 </li><li class="mop-wrapper"><p>Worked on a C# client for the PHP Web Service.</p>
 </li><li class="mop-wrapper"><p>Built a PHP client for the PHP Web Service for real time delivery and display of reporting data.</p>
-</li></ul></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Software Engineer II</strong>,&nbsp;<a href="http://intuit.com" target="_blank">Intuit Inc.</a></p><p class="text-muted"><small><span class="space-right">Jul, 2001 - Mar, 2003</span><span><i class="icon-clock mr-5"></i>1 year 8 months</span></small></p><div class="mop-wrapper space-bottom"><p>Took ownership of internal database applications that tracked the release cycle of consumer products. Worked with my users to make the tools more efficient and reliable.  Worked with users to bring tools into engineering standards while maintaining functionality.</p>
+</li></ul></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Software Engineer II</strong>,&nbsp;</p><p class="text-muted"><small><span class="space-right">Jul, 2001 - Mar, 2003</span><span><i class="icon-clock mr-5"></i>1 year 8 months</span></small></p><div class="mop-wrapper space-bottom"><p>Took ownership of internal database applications that tracked the release cycle of consumer products. Worked with my users to make the tools more efficient and reliable.  Worked with users to bring tools into engineering standards while maintaining functionality.</p>
 </div><ul><li class="mop-wrapper"><p>Ported Access database to PostgreSQL.</p>
 </li><li class="mop-wrapper"><p>Updated Access client application to access new PostgreSQL database using ODBC.</p>
 </li><li class="mop-wrapper"><p>Worked on plans and requirements gathering to redesign tools for better efficiency.</p>
 </li><li class="mop-wrapper"><p>Built web based reporting mechanisms for real time access to data via web pages or sent email.</p>
-</li></ul></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Senior Programmer</strong>,&nbsp;SeminarSource.Com</p><p class="text-muted"><small><span class="space-right">Dec, 2000 - Jul, 2001</span><span><i class="icon-clock mr-5"></i>7 months</span></small></p><div class="mop-wrapper space-bottom"><p>Developed an Application Service Provider platform used to incorporate 3rd party web applications into a single web interface with a uniform look and feel.</p>
+</li></ul></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Senior Programmer</strong>,&nbsp;</p><p class="text-muted"><small><span class="space-right">Dec, 2000 - Jul, 2001</span><span><i class="icon-clock mr-5"></i>7 months</span></small></p><div class="mop-wrapper space-bottom"><p>Developed an Application Service Provider platform used to incorporate 3rd party web applications into a single web interface with a uniform look and feel.</p>
 </div><ul><li class="mop-wrapper"><p>Designed XML file transmission method for 3rd party web applications to talk with the platform.</p>
 </li><li class="mop-wrapper"><p>Designed web based application that would talk via HTTP to a 3rd party web application.</p>
 </li><li class="mop-wrapper"><p>Designed a Template engine that would use data gathered from a 3rd party and display it in a uniform environment.</p>
 </li><li class="mop-wrapper"><p>Designed a CSS engine for modifying the way a template would be displayed no matter what the data.</p>
-</li></ul></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Senior Programmer / Director of Technology Solutions</strong>,&nbsp;Solutions Media Inc.</p><p class="text-muted"><small><span class="space-right">Mar, 2000 - Sep, 2000</span><span><i class="icon-clock mr-5"></i>6 months</span></small></p><div class="mop-wrapper space-bottom"><p>I managed 12 people in developing and maintain web based applications and dynamic web sites.  Using PHP to connect to an Oracle database on a Solaris UNIX box I designed and built, or helped build many of the backend structures needed to keep the system running smoothly.</p>
-</div></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Programmer / DBA / MIS</strong>,&nbsp;Grant &amp; Associates</p><p class="text-muted"><small><span class="space-right">Aug, 1999 - Mar, 2000</span><span><i class="icon-clock mr-5"></i>7 months</span></small></p><div class="mop-wrapper space-bottom"><p>Working on my own I developed a method of automatically transferring Xbase (.dbf) files from a Windows based system into a Linux based system.  These files were then loaded into a MySQL database for use with PHP programs and web display of the data.  I set up Apache to parse the PHP files that connected to the MySQL database to retrieve and display the data to the user.</p>
-</div></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Programmer</strong>,&nbsp;Financial Database Services</p><p class="text-muted"><small><span class="space-right">Jul, 1998 - Aug, 1999</span><span><i class="icon-clock mr-5"></i>1 year 1 month</span></small></p><div class="mop-wrapper space-bottom"><p>With only an outline and instructions about what technologies I could and couldn’t use I built a system to maintain a source code tree.  This system connected to SCCS to manage the archiving and versioning of the files, but gave the programmers an easy to use interface for checking out code and working on it.  The system maintained a queue of file requests, removing the tedious task of a programmer having to keep checking to see if a file they needed was available.  This code streamlined the programmer’s workday and speeded up production.</p>
-</div></div></li></ul></div></div><div class="detail" id="skills"><div class="icon"><i class="fs-lg icon-tools"></i><span class="mobile-title">Skills</span></div><div class="info"><h4 class="title text-uppercase">Skills</h4><div class="content"><ul class="list-unstyled clear-margin"><li class="card card-nested card-skills"><div class="skill-level" data-toggle="tooltip" title="Master" data-placement="left"><div class="skill-progress master"></div></div><div class="skill-info"><strong>iOS Development</strong><div class="space-top labels"><span class="label label-keyword">iOS</span><span class="label label-keyword">Swift</span><span class="label label-keyword">Objective-C</span><span class="label label-keyword">CocoaTouch</span><span class="label label-keyword">CoreData</span></div></div></li><li class="card card-nested card-skills"><div class="skill-level" data-toggle="tooltip" title="Master" data-placement="left"><div class="skill-progress master"></div></div><div class="skill-info"><strong>APIs</strong><div class="space-top labels"><span class="label label-keyword">REST</span><span class="label label-keyword">JSON</span><span class="label label-keyword">Design</span></div></div></li><li class="card card-nested card-skills"><div class="skill-level" data-toggle="tooltip" title="Intermediate" data-placement="left"><div class="skill-progress intermediate"></div></div><div class="skill-info"><strong>Web Development</strong><div class="space-top labels"><span class="label label-keyword">C#</span><span class="label label-keyword">PHP</span><span class="label label-keyword">Javascript</span><span class="label label-keyword">CSS</span><span class="label label-keyword">HTML</span></div></div></li><li class="card card-nested card-skills"><div class="skill-level" data-toggle="tooltip" title="Intermediate" data-placement="left"><div class="skill-progress intermediate"></div></div><div class="skill-info"><strong>Support</strong><div class="space-top labels"><span class="label label-keyword">SQL</span><span class="label label-keyword">Python</span><span class="label label-keyword">XML</span></div></div></li></ul></div></div></div><div class="detail" id="education"><div class="icon"><i class="fs-lg icon-graduation-cap"></i><span class="mobile-title">Education</span></div><div class="info"><h4 class="title text-uppercase">Education</h4><div class="content"><ul class="list-unstyled clear-margin"><li class="card card-nested"><div class="content"><p class="clear-margin relative"><strong>General Education, ,&nbsp;</strong>Grossmont High School</p><p class="text-muted clear-margin"><small>Sep, 1986 - Jun, 1990</small></p><i></i></div></li></ul></div></div></div><div class="detail" id="references"><div class="icon"><i class="fs-lg icon-thumbs-up"></i><span class="mobile-title">References</span></div><div class="info"><h4 class="title text-uppercase">References</h4><div class="content"><ul class="list-unstyled clear-margin"><li class="card card-nested">Noelle Stransky<blockquote class="quote"><div class="mop-wrapper"><p>Rob is an excellent developer to work with. He’s passionate about the design of the products he works on and we would often collaborate on design decisions. Rob is one of those developers who will fight for the right solution to a product even if its not the popular idea. Once he’s got a problem to solve he will often run with it and try to find the best and most innovative way to solve the problem. He is a great person to work with and I will miss collaborating with him on projects.</p>
+</li></ul></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Senior Programmer / Director of Technology Solutions</strong>,&nbsp;</p><p class="text-muted"><small><span class="space-right">Mar, 2000 - Sep, 2000</span><span><i class="icon-clock mr-5"></i>6 months</span></small></p><div class="mop-wrapper space-bottom"><p>I managed 12 people in developing and maintain web based applications and dynamic web sites.  Using PHP to connect to an Oracle database on a Solaris UNIX box I designed and built, or helped build many of the backend structures needed to keep the system running smoothly.</p>
+</div></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Programmer / DBA / MIS</strong>,&nbsp;</p><p class="text-muted"><small><span class="space-right">Aug, 1999 - Mar, 2000</span><span><i class="icon-clock mr-5"></i>7 months</span></small></p><div class="mop-wrapper space-bottom"><p>Working on my own I developed a method of automatically transferring Xbase (.dbf) files from a Windows based system into a Linux based system.  These files were then loaded into a MySQL database for use with PHP programs and web display of the data.  I set up Apache to parse the PHP files that connected to the MySQL database to retrieve and display the data to the user.</p>
+</div></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Programmer</strong>,&nbsp;</p><p class="text-muted"><small><span class="space-right">Jul, 1998 - Aug, 1999</span><span><i class="icon-clock mr-5"></i>1 year 1 month</span></small></p><div class="mop-wrapper space-bottom"><p>With only an outline and instructions about what technologies I could and couldn’t use I built a system to maintain a source code tree.  This system connected to SCCS to manage the archiving and versioning of the files, but gave the programmers an easy to use interface for checking out code and working on it.  The system maintained a queue of file requests, removing the tedious task of a programmer having to keep checking to see if a file they needed was available.  This code streamlined the programmer’s workday and speeded up production.</p>
+</div></div></li></ul></div></div><div class="detail" id="skills"><div class="icon"><i class="fs-lg icon-tools"></i><span class="mobile-title">Skills</span></div><div class="info"><h4 class="title text-uppercase">Skills</h4><div class="content"><ul class="list-unstyled clear-margin"><li class="card card-nested card-skills"><div class="skill-level" data-toggle="tooltip" title="Master" data-placement="left"><div class="skill-progress master"></div></div><div class="skill-info"><strong>iOS Development</strong><div class="space-top labels"><span class="label label-keyword"><p>iOS</p>
+</span><span class="label label-keyword"><p>Swift</p>
+</span><span class="label label-keyword"><p>Objective-C</p>
+</span><span class="label label-keyword"><p>CocoaTouch</p>
+</span><span class="label label-keyword"><p>CoreData</p>
+</span></div></div></li><li class="card card-nested card-skills"><div class="skill-level" data-toggle="tooltip" title="Master" data-placement="left"><div class="skill-progress master"></div></div><div class="skill-info"><strong>APIs</strong><div class="space-top labels"><span class="label label-keyword"><p>REST</p>
+</span><span class="label label-keyword"><p>JSON</p>
+</span><span class="label label-keyword"><p>Design</p>
+</span></div></div></li><li class="card card-nested card-skills"><div class="skill-level" data-toggle="tooltip" title="Intermediate" data-placement="left"><div class="skill-progress intermediate"></div></div><div class="skill-info"><strong>Web Development</strong><div class="space-top labels"><span class="label label-keyword"><p>C#</p>
+</span><span class="label label-keyword"><p>PHP</p>
+</span><span class="label label-keyword"><p>Javascript</p>
+</span><span class="label label-keyword"><p>CSS</p>
+</span><span class="label label-keyword"><p>HTML</p>
+</span></div></div></li><li class="card card-nested card-skills"><div class="skill-level" data-toggle="tooltip" title="Intermediate" data-placement="left"><div class="skill-progress intermediate"></div></div><div class="skill-info"><strong>Support</strong><div class="space-top labels"><span class="label label-keyword"><p>SQL</p>
+</span><span class="label label-keyword"><p>Python</p>
+</span><span class="label label-keyword"><p>XML</p>
+</span></div></div></li></ul></div></div></div><div class="detail" id="education"><div class="icon"><i class="fs-lg icon-graduation-cap"></i><span class="mobile-title">Education</span></div><div class="info"><h4 class="title text-uppercase">Education</h4><div class="content"><ul class="list-unstyled clear-margin"><li class="card card-nested"><div class="content"><p class="clear-margin relative"><strong>General Education, ,&nbsp;</strong>Grossmont High School</p><p class="text-muted clear-margin"><small>Sep, 1986 - Jun, 1990</small></p><i></i></div></li></ul></div></div></div><div class="detail" id="references"><div class="icon"><i class="fs-lg icon-thumbs-up"></i><span class="mobile-title">References</span></div><div class="info"><h4 class="title text-uppercase">References</h4><div class="content"><ul class="list-unstyled clear-margin"><li class="card card-nested">Noelle Stransky<blockquote class="quote"><div class="mop-wrapper"><p>Rob is an excellent developer to work with. He’s passionate about the design of the products he works on and we would often collaborate on design decisions. Rob is one of those developers who will fight for the right solution to a product even if its not the popular idea. Once he’s got a problem to solve he will often run with it and try to find the best and most innovative way to solve the problem. He is a great person to work with and I will miss collaborating with him on projects.</p>
+</div></blockquote></li><li class="card card-nested">Lucien Dupont<blockquote class="quote"><div class="mop-wrapper"><p>Rob is one of the best iOS engineers I've worked with. His attention to detail and passion for creating a truly outstanding app helped TurboTax iOS become that much better and more stable in his time here.</p>
+<p>He'd be one of the first people I seek out if I had my own company and was looking for an excellent developer.</p>
 </div></blockquote></li></ul></div></div></div></div></div></section></div></div><script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script><script>$(function () {
   var toggleFloatingMenu = function() {
     $( '.js-floating-nav' ).toggleClass( 'is-visible' );

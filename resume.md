@@ -21,13 +21,24 @@ Country: California
 
 ## Summary
 
-I've been working as a software engineer for over 15 years.  I've been involved in every aspect of the Software Development Life Cycle (SDLC) from planning to deployment.  I've never met a challenge that I couldn't meet and typically meet ahead of schedule.  
+I've been working as a software engineer for over 20 years.  I've been involved in every aspect of the Software Development Life Cycle (SDLC) from planning to deployment.  I've never met a challenge that I couldn't meet and typically meet ahead of schedule.  
 
-For the last 6 years I've been working exclusively in the mobile space and am intrigued by the ability to have ubiquitous computing with us wherever we go.  Designing applications that allow users to interact with them weather they are on a PC, tablet, phone, or even TV is a challenge I find very rewarding.
+For over 10 years I've been working exclusively in the mobile space and am intrigued by the ability to have ubiquitous computing with us wherever we go.  Designing applications that allow users to interact with them weather they are on a PC, tablet, phone, or even TV is a challenge I find very rewarding.
 
 ## Work
 
-### Senior Software Engineer, [Intuit Inc.](http://intuit.com)
+### Staff Software Engineer, [Walmart](http://walmart.com)
+***2020-01-01***
+
+* Tracked down and idetified a tricky race condition that had to do with when the internal webkit browser code reported that it finished loading and when it was actually finished with rendering SVG content that we needed to interact with.
+* Mentored multiple developers who moved on to become Team Leads on there own teams.
+* Took on the responsibility of being the Team Lead for Cart after employee attrition left the team with only a couple of months of total experience on the code base.
+* Worked to make the team a cohesive unit that supported one another.
+* Was the main point of contact for various features around the cart experience.
+
+Worked on various teams within Walmart as they took on the audacious task of re-writing there existing online and in-store apps into a single cohesive whole.  I eventually landed as the Team Lead for the iOS Cart development team.  Since we are a shopping app Cart was an integral part and I divided my time between coding, mentoring, and interfacing with external teams that utilized our offering.
+
+### Staff Software Engineer, [Intuit Inc.](http://intuit.com)
 ***2016-11-15***
 
 * Rewrote the companies tax estimation/forecasting tool TaxCaster from the ground up in Swift using current best practices and even building cross platform reusable data structures.
@@ -155,3 +166,9 @@ With only an outline and instructions about what technologies I could and couldn
 ***Noelle Stransky***
 
 > Rob is an excellent developer to work with. He’s passionate about the design of the products he works on and we would often collaborate on design decisions. Rob is one of those developers who will fight for the right solution to a product even if its not the popular idea. Once he’s got a problem to solve he will often run with it and try to find the best and most innovative way to solve the problem. He is a great person to work with and I will miss collaborating with him on projects.
+
+***Lucien Dupont***
+
+> Rob is one of the best iOS engineers I've worked with. His attention to detail and passion for creating a truly outstanding app helped TurboTax iOS become that much better and more stable in his time here. 
+> 
+> He'd be one of the first people I seek out if I had my own company and was looking for an excellent developer.
