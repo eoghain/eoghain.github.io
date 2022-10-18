@@ -1,852 +1,1113 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Resume of Rob Booth</title>
-    <!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"> -->
-    <!-- <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> -->
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet">
-    <style type="text/css">
-    @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800);
-@charset "utf-8";
-@-webkit-viewport   { width: device-width; }
-@-moz-viewport      { width: device-width; }
-@-ms-viewport       { width: device-width; }
-@-o-viewport        { width: device-width; }
-@viewport           { width: device-width; }
-
-body{
-  font-family: 'Open Sans', Arial, Tahoma;
-  font-weight: 400;
-  color: #363636;
-  background: #334960;
-}
-blockquote {
-  font-size: 1em;
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><meta name="viewport" content="width=device-width, initial-scale=1"/><title>Rob Booth</title><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/><style>@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?z1lat9');
+  src:  url('fonts/icomoon.eot?z1lat9#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?z1lat9') format('truetype'),
+    url('fonts/icomoon.woff?z1lat9') format('woff'),
+    url('fonts/icomoon.svg?z1lat9#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 
-.container{
-  margin-top: 80px;
-  margin-bottom: 15px;
-  background: #fff;
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-#photo-header{
-  margin-top: -75px;
+.icon-gitlab .path1:before {
+  content: "\e906";
+  color: rgb(252, 109, 38);
 }
-#photo{
-  width: 160px;
-  height: 160px;
-  border-radius: 50%;
-  overflow: hidden;
-  padding: 5px;
-  background: #334960;
-  display: inline-block;
+.icon-gitlab .path2:before {
+  content: "\e907";
+  margin-left: -1em;
+  color: rgb(226, 67, 41);
 }
-#photo img{
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
+.icon-gitlab .path3:before {
+  content: "\e908";
+  margin-left: -1em;
+  color: rgb(252, 109, 38);
 }
-#text-header h1{
-  margin: 0;
-  padding: 0;
-  font-size: 1.5em;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: -1px;
+.icon-gitlab .path4:before {
+  content: "\e909";
+  margin-left: -1em;
+  color: rgb(252, 163, 38);
 }
-#text-header h1::first-line{
-  font-size: 1.5em;
-  font-weight: 800;
-  line-height: 1.5em;
+.icon-gitlab .path5:before {
+  content: "\e90a";
+  margin-left: -1em;
+  color: rgb(226, 67, 41);
 }
-#text-header h1 span{
-  color: #334960;
-  opacity: 0.7;
+.icon-gitlab .path6:before {
+  content: "\e90b";
+  margin-left: -1em;
+  color: rgb(252, 109, 38);
 }
-#text-header h1 sup{
-  opacity: 0.5;
+.icon-gitlab .path7:before {
+  content: "\e90c";
+  margin-left: -1em;
+  color: rgb(252, 163, 38);
 }
-#text-header:after{
-  width: 100%;
-  height: 3px;
-  border-bottom: 1px solid #ddd;
-  margin-top: 15px;
-  content: '';
-  display: block;
+.icon-gitlab .path8:before {
+  content: "\e90d";
+  margin-left: -1em;
+  color: rgb(226, 67, 41);
+}
+.icon-meetup .path1:before {
+  content: "\e901";
+  color: rgb(255, 255, 255);
+}
+.icon-meetup .path2:before {
+  content: "\e902";
+  margin-left: -1.5em;
+  color: rgb(240, 1, 1);
+}
+.icon-meetup .path3:before {
+  content: "\e903";
+  margin-left: -1.5em;
+  color: rgb(3, 3, 3);
+}
+.icon-blogger:before {
+  content: "\e900";
+}
+.icon-exercism:before {
+  content: "\e601";
+}
+.icon-telegram:before {
+  content: "\e904";
+}
+.icon-flickr:before {
+  content: "\f16e";
+}
+.icon-medium:before {
+  content: "\f23a";
+}
+.icon-heart:before {
+  content: "\f004";
+}
+.icon-book:before {
+  content: "\f02d";
+}
+.icon-linkedin:before {
+  content: "\f08c";
+}
+.icon-twitter:before {
+  content: "\f099";
+}
+.icon-github:before {
+  content: "\f09b";
+}
+.icon-link:before {
+  content: "\f0c1";
+}
+.icon-bars:before {
+  content: "\f0c9";
+}
+.icon-pinterest:before {
+  content: "\f0d2";
+}
+.icon-googleplus:before {
+  content: "\f0d5";
+}
+.icon-circle:before {
+  content: "\f111";
+}
+.icon-code:before {
+  content: "\f121";
+}
+.icon-youtube:before {
+  content: "\f167";
+}
+.icon-stackoverflow:before {
+  content: "\f16c";
+}
+.icon-bitbucket:before {
+  content: "\f171";
+}
+.icon-tumblr:before {
+  content: "\f173";
+}
+.icon-dribbble:before {
+  content: "\f17d";
+}
+.icon-skype:before {
+  content: "\f17e";
+}
+.icon-foursquare:before {
+  content: "\f180";
+}
+.icon-gittip:before {
+  content: "\f184";
+}
+.icon-gratipay:before {
+  content: "\f184";
+}
+.icon-stackexchange:before {
+  content: "\f18d";
+}
+.icon-vimeo:before {
+  content: "\f194";
+}
+.icon-graduation-cap:before {
+  content: "\f19d";
+}
+.icon-language:before {
+  content: "\f1ab";
+}
+.icon-child:before {
+  content: "\f1ae";
+}
+.icon-behance:before {
+  content: "\f1b5";
+}
+.icon-spotify:before {
+  content: "\f1bc";
+}
+.icon-soundcloud:before {
+  content: "\f1be";
+}
+.icon-codepen:before {
+  content: "\f1cb";
+}
+.icon-hackernews:before {
+  content: "\f1d4";
+}
+.icon-lastfm:before {
+  content: "\f202";
+}
+.icon-angellist:before {
+  content: "\f209";
+}
+.icon-facebook:before {
+  content: "\f230";
+}
+.icon-instagram:before {
+  content: "\e905";
+}
+.icon-trophy:before {
+  content: "\e605";
+}
+.icon-office:before {
+  content: "\e606";
+}
+.icon-clock:before {
+  content: "\e60a";
+}
+.icon-reddit:before {
+  content: "\e609";
+}
+.icon-profile:before {
+  content: "\e600";
+}
+.icon-tools:before {
+  content: "\e034";
+}
+.icon-location:before {
+  content: "\e602";
+}
+.icon-mail:before {
+  content: "\e603";
+}
+.icon-phone:before {
+  content: "\e03f";
+}
+.icon-newspaper:before {
+  content: "\e607";
+}
+.icon-chevron-down:before {
+  content: "\e60c";
+}
+.icon-chevron-up:before {
+  content: "\e60d";
+}
+.icon-dots-three-horizontal:before {
+  content: "\e60b";
+}
+.icon-thumbs-up:before {
+  content: "\e604";
+}
+.icon-board:before {
+  content: "\e608";
 }
 
-.box{
-  padding-bottom: 10px;
-  margin-bottom: 25px;
-}
-.box h2{
-  color: #227c74;
-  font-size: 1.5em;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
-#awards,
-#education{
-  margin-top: 20px;
-  margin-bottom: 0;
+.relative {
   position: relative;
-  padding: 1em 0;
-  list-style: none;
 }
-#awards:before,
-#education:before {
-  width: 5px;
-  height: 100%;
-  position: absolute;
-  left: 35px;
-  top: 0;
-  content: ' ';
-  display: block;
-  background: #32475c;
-  background: -moz-linear-gradient(top,  #ffffff 0%, #32475c 7%, #32475c 89%, #ffffff 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(7%,#32475c), color-stop(89%,#32475c), color-stop(100%,#ffffff));
-  background: -webkit-linear-gradient(top,  #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%);
-  background: -o-linear-gradient(top,  #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%);
-  background: -ms-linear-gradient(top,  #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%);
-  background: linear-gradient(to bottom,  #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 );
-}
-#awards li,
-#education li{
-  width: 100%;
-  z-index: 2;
-  position: relative;
-  float: left;
-}
-#awards .year,
-#education .year{
-  width: 14%;
-  background: #fff;
-  padding: 10px;
-  font-weight: 700;
-  display: inline-block;
-}
-#awards .description,
-#education .description{
-  width: 83%;
-  display: inline-block;
-  background: #eee;
-  margin-bottom: 10px;
-  position: relative;
-  padding: 10px;
-  border-bottom: 1px solid #ccc;
-  border-right: 1px solid #ccc;
-}
-#awards .description:after,
-#education .description:after {
-  content: '';
-  position: absolute;
-  top: 15px;
-  right: 0;
-  left: -16px;
-  height: 0;
-  width: 0;
-  border: solid transparent;
-  border-right-color: #eee;
-  border-width: 8px;
-  pointer-events: none;
-}
-#awards .description h3,
-#education .description h3{
-  font-size: 1.2em;
+.clear-margin {
   margin: 0;
-  padding: 0;
-  font-weight: 700;
 }
-#awards .description p,
-#education .description p{
-  margin-top: 5px;
-  padding: 0;
-}
-
-.job{
-  margin-bottom: 15px;
-}
-.job .details {
-  margin-left: 3%;
-  width: 95%;
-  padding: 10px;
-  margin-bottom: 10px;
-  background: #eee;
-  border-bottom: 1px solid #ccc;
-  border-right: 1px solid #ccc;
-}
-.job .where{
-  font-size: 1.2em;
-  font-weight: bold;
-}
-.job .year{
-  opacity: 0.7;
-}
-.job .profession{
-  font-size: 1.2em;
-  font-weight: bold;
-}
-.job .description{
-  line-height: 1.5em;
-}
-.job .highlights{
-  padding: 5px 0;
-  font-weight: bold;
-}
-.job .job-details {
-  padding-left: 5%;
-  width: 100%;
-}
-.publication {
-  margin-bottom: 0;
-}
-.publication .name{
-  font-size: 1em;
-  font-weight: bold;
-}
-.publication .year{
-    opacity: 0.7;
-}
-.publication p{
-  margin: 0;
-  padding-top: 10px;
-}
-
-.contact-item{
-  width: 100%;
-  float: left;
-}
-.contact-item .icon{
-  padding: 10px;
-  border-right: 1px solid #ccc;
-  border-bottom: 1px solid #ccc;
-  color: #32475c;
-  background: #eee;
-}
-.contact-item:last-child .icon{
-  border-bottom: none;
-}
-.contact-item .title{
-  width: 80%;
-  width: calc(100% - 55px);
-  font-weight: 700;
-  opacity: 0.9;
-}
-.contact-item .title.only{
+.space-top {
   margin-top: 10px;
 }
-.contact-item .description{
-  width: 80%;
-  width: calc(100% - 55px);
-  color: #334960;
+.space-right {
+  margin-right: 10px;
 }
-
-.item-interests,
-.item-skills{
-  height: 30px;
-  color: #334960;
-  padding: 5px 10px;
-  margin-bottom: 5px;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  font-size: 1.1em;
-  font-weight: 600;
+.space-bottom {
+  margin-bottom: 10px;
 }
-.interest,
-.skill{
-  color: #fff;
-  display: inline-block;
+.mr-5 {
   margin-right: 5px;
-  margin-bottom: 5px;
-  padding: 5px 10px;
-  background: #32475c;
-  position: relative;
-  font-size: .85em;
 }
-.skill-level {
-  background-color: #227c74;
-  border-radius: 4px;
-  color: #fff;
-  padding: 1px 8px;
-  font-size: .75em;
-  position: absolute;
-  margin: 1px 10px;
+.mr-10 {
+  margin-right: 10px;
 }
-
-#language-skills .skill{
-  margin: 10px 0;
-  padding-bottom: 10px;
-  border-bottom: 1px solid #eee;
+.ml-5 {
+  margin-left: 5px;
 }
-
-    </style>
-    <style type="text/css" media="print">
-    body {
-  font-size: .95em;
-  -webkit-print-color-adjust: exact;
+.labels {
+  line-height: 2;
 }
-
-a[href]:after {
-  content: none !important;
+.label-keyword {
+  display: inline-block;
+  background: #7eb0db;
+  color: white;
+  font-size: 0.9em;
+  padding: 5px;
+  border: 1px solid #357ebd;
+  margin-right: 5px;
 }
-
-#photo{
+.label-keyword:last-child {
+  margin-right: 0;
+}
+.label-keyword p {
+  margin: 0;
+}
+.label-keyword a {
+  color: white;
+}
+.label-keyword a:hover {
+  text-decoration: none;
+}
+.link-disguise {
+  color: inherit;
+}
+.link-disguise:hover {
+  color: inherit;
+}
+.clear-margin {
+  margin: 0;
+}
+@media (max-width: 992px) {
+  .clear-margin-sm {
+    margin-bottom: 0;
+  }
+}
+.fs-lg {
+  font-size: 1.33333333em;
+  line-height: 0.75em;
+  vertical-align: -15%;
+}
+.fs-2x {
+  font-size: 2em;
+}
+.fs-3x {
+  font-size: 3em;
+}
+.fs-4x {
+  font-size: 4em;
+}
+.btn-circle-sm {
+  width: 28px;
+  height: 28px;
+  line-height: 28px;
+  border-radius: 50%;
+  text-align: center;
+  padding: 0;
+  outline: none !important;
+}
+/* the version when the icon file is last updated */
+@font-face {
+  font-family: 'jst-elegant';
+  src: url("//unpkg.com/jsonresume-theme-elegant@1.12.0/assets/icomoon/fonts/icomoon.eot?f218wo");
+  src: url("//unpkg.com/jsonresume-theme-elegant@1.12.0/assets/icomoon/fonts/icomoon.eot?f218wo#iefix") format('embedded-opentype'), url("//unpkg.com/jsonresume-theme-elegant@1.12.0/assets/icomoon/fonts/icomoon.ttf?f218wo") format('truetype'), url("//unpkg.com/jsonresume-theme-elegant@1.12.0/assets/icomoon/fonts/icomoon.woff?f218wo") format('woff'), url("//unpkg.com/jsonresume-theme-elegant@1.12.0/assets/icomoon/fonts/icomoon.svg?f218wo#icomoon") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'jst-elegant' !important;
+}
+body {
+  font-family: 'Lato';
+  background: #f0f0f0;
+  color: #333;
+}
+.main {
+  padding: 5px;
+}
+.card {
+  background: white;
+  border: 1px solid #e6e6e6;
+  border-radius: 3px;
+  min-height: 300px;
+  padding: 10px 0;
+}
+.card-nested {
+  min-height: 0;
+  border-width: 1px 0 0 0;
+}
+.card-nested:before,
+.card-nested:after {
+  content: " ";
+  display: table;
+}
+.card-nested:after {
+  clear: both;
+}
+@media (max-width: 480px) {
+  .card-nested {
+    padding: 5px 0;
+  }
+}
+.background-card {
+  padding: 10px 20px;
+}
+.card-wrapper {
+  padding: 5px;
+}
+@media (max-width: 992px) {
+  .card-wrapper {
+    float: none !important;
+  }
+}
+.background-details .detail {
+  display: table;
+}
+.background-details .detail .icon {
+  min-width: 45px;
+  max-width: 45px;
+  text-align: center;
+}
+.background-details .detail .info {
+  width: 100%;
+}
+.background-details .detail .title,
+.background-details .detail .icon {
+  color: #707070;
+}
+.background-details .detail .mobile-title {
   display: none;
 }
-
-.box {
-  margin-bottom: -10px;
+@media (max-width: 480px) {
+  .background-details .detail .mobile-title {
+    display: inline-block;
+    margin-left: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    vertical-align: middle;
+  }
 }
-
-blockquote,
-#education,
-#awards,
-.contact-item,
-.publication,
-.skills,
-.interests {
-  page-break-inside: avoid;
-}
-
-.col-sm-5{
-  width: 40%;
-  padding: 0 15px;
-}
-
-.col-sm-7{
-  width: 60%;
-  padding: 0 15px;
-}
-
-.skills .col-sm-offset-1,
-.interests .col-sm-offset-1{
-  margin-top: -10px;
-  margin-bottom: 5px;
-}
-
-#education {
-  margin: 0;
-  margin-bottom: -20px;
-}
-#awards:before,
-#education:before {
-  background: none;
-}
-
-#awards .description,
-#education .description,
-.job .details {
-  border: 1px solid #eee;
-}
-.publication,
-.publication .panel-heading,
-.publication .name{
-  margin: 0;
-  padding: 0 5px;
-  border: none;
-}
-.publication .panel-body {
+.background-details .detail .icon,
+.background-details .detail .info {
+  display: table-cell;
   padding: 0 10px;
-  margin: 0;
 }
-
-.badge {
-  margin: 0;
+@media (max-width: 480px) {
+  .background-details .detail {
+    display: block;
+  }
+  .background-details .detail .icon {
+    max-width: inherit;
+    min-width: inherit;
+    text-align: left;
+  }
+  .background-details .detail .icon,
+  .background-details .detail .info {
+    display: block;
+    padding: 10px 0;
+  }
+  .background-details .detail .title {
+    display: none;
+  }
 }
-
-.list-group-item{
-  border: none;
-  margin: 0;
-  padding: 5px 15px;
+.info .content.has-sidebar {
+  width: 80%;
+  box-sizing: border-box;
+  float: left;
+  padding: 0 10px;
+  border-right: 1px solid #cdcdcd;
 }
-.list-group-item:after{
-  content: '';
+@media (max-width: 992px) {
+  .info .content.has-sidebar {
+    width: 100%;
+    border-right: 0;
+  }
+}
+@media (max-width: 480px) {
+  .info .content.has-sidebar {
+    padding: 0 2px;
+  }
+}
+.info .sidebar {
+  margin-left: 80%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+@media (max-width: 480px) {
+  ul {
+    padding-left: 25px;
+  }
+}
+.current-event {
+  font-size: 8px;
+  color: #5ACE24;
   position: absolute;
-  top: 8px;
-  right: 0;
-  left: -1px;
-  height: 0;
-  width: 0;
-  border: solid transparent;
-  border-right-color: #999;
-  border-width: 4px;
-  pointer-events: none;
- }
+  right: 100%;
+  top: 4px;
+  left: -10px;
+}
+.mop-wrapper > p:last-child {
+  margin: 0;
+}
+/*
+    Credits: http://codyhouse.co/demo/smart-fixed-navigation/index.html
+*/
+.floating-nav-trigger {
+  width: 50px;
+  height: 50px;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.24);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.24);
+  -webkit-transition: background-color 0.5s ease;
+  -o-transition: background-color 0.5s ease;
+  transition: background-color 0.5s ease;
+  display: block;
+  border-radius: 50%;
+  text-align: center;
+  background-color: white;
+  font-size: 1.5em;
+  color: #357ebd;
+  z-index: 100;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  text-decoration: none !important;
+}
+.floating-nav-trigger > [class^="icon-"],
+.floating-nav-trigger [class*=" icon-"],
+.floating-nav-trigger > .close-icon {
+  line-height: 50px;
+}
+.floating-nav-trigger .close-icon {
+  display: none;
+}
+.floating-nav-trigger:hover {
+  color: #1f496e;
+  background-color: #e6e6e6;
+}
+.floating-nav-trigger.is-open {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.floating-nav-trigger.is-open .close-icon {
+  display: inherit;
+}
+.floating-nav-trigger.is-open .icon-bars {
+  display: none;
+}
+.floating-nav-trigger.is-open:hover {
+  background-color: white;
+}
+.floating-nav {
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  -o-transform: scale(0);
+  transform: scale(0);
+  -webkit-transform-origin: 100% 100%;
+  -moz-transform-origin: 100% 100%;
+  -ms-transform-origin: 100% 100%;
+  transform-origin: 100% 100%;
+  -webkit-transition: transform 0.3s, visibility 0s 0.3s;
+  -o-transition: transform 0.3s, visibility 0s 0.3s;
+  transition: transform 0.3s, visibility 0s 0.3s;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.24);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.24);
+  position: fixed;
+  z-index: 50;
+  right: 10px;
+  bottom: 10px;
+  background-color: white;
+  width: 90%;
+  max-width: 400px;
+  visibility: hidden;
+  overflow: hidden;
+}
+.floating-nav ul {
+  font-size: 1.2em;
+  margin: 0;
+}
+.floating-nav ul li {
+  border-bottom: 1px solid #eff2f6;
+}
+.floating-nav ul li a {
+  padding: 20px;
+  text-decoration: none;
+  color: #357ebd;
+  display: block;
+}
+.floating-nav ul li a:hover {
+  color: #1f496e;
+}
+.floating-nav ul li:last-child {
+  border-bottom: 0;
+}
+.floating-nav.is-visible {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: transform 0.3s, visibility 0s 0s;
+  -o-transition: transform 0.3s, visibility 0s 0s;
+  transition: transform 0.3s, visibility 0s 0s;
+  visibility: visible;
+}
+@media (max-width: 992px) {
+  .profile-card-wrapper {
+    position: relative;
+  }
+}
+.profile-card-wrapper .profile-card {
+  padding: 10px;
+}
+.profile-pic {
+  padding: 20px 0;
+}
+@media (max-width: 992px) {
+  .profile-pic {
+    padding: 10px 0;
+  }
+}
+.profile-pic img {
+  width: 100px;
+  height: 100px;
+}
+@media (max-width: 992px) {
+  .name {
+    margin-top: 10px;
+  }
+}
+@media (max-width: 768px) {
+  .contact-details {
+    text-align: center;
+  }
+}
+.contact-details .detail {
+  display: table;
+  padding: 10px 0;
+}
+.contact-details .detail .icon {
+  padding: 0 10px;
+  color: #707070;
+}
+@media (max-width: 992px) {
+  .contact-details .detail .icon {
+    padding: 0 5px 0 0;
+  }
+}
+.contact-details .detail .info {
+  font-size: 0.8em;
+}
+.contact-details .detail .icon,
+.contact-details .detail .info {
+  display: table-cell;
+  vertical-align: middle;
+}
+@media (max-width: 768px) {
+  .contact-details .detail {
+    position: relative;
+    float: left;
+    width: 100%;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+@media (max-width: 992px) {
+  .contact-details .detail {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding: 10px;
+  }
+  .contact-details .detail .icon,
+  .contact-details .detail .info {
+    display: inline-block;
+  }
+}
+@media (max-width: 992px) and (min-width: 768px) {
+  .contact-details .detail {
+    float: left;
+    width: 25%;
+  }
+}
+.social-links {
+  line-height: 2.5;
+}
+.social-link {
+  margin-left: 5px;
+  min-width: 35px;
+  display: inline-block;
+}
+.social-link:first-child {
+  margin-left: 0;
+}
+.social-link:hover {
+  text-decoration: none;
+}
+.link-github {
+  color: #454545;
+}
+.link-github:hover,
+.link-github:focus {
+  text-decoration: none;
+  color: #2b2b2b;
+}
+.link-twitter {
+  color: #33ccff;
+}
+.link-twitter:hover,
+.link-twitter:focus {
+  text-decoration: none;
+  color: #00bfff;
+}
+.link-blog {
+  color: #f36f24;
+}
+.link-blog:hover,
+.link-blog:focus {
+  text-decoration: none;
+  color: #d8560c;
+}
+.link-linkedin {
+  color: #007bb6;
+}
+.link-linkedin:hover,
+.link-linkedin:focus {
+  text-decoration: none;
+  color: #005983;
+}
+.link-skype {
+  color: #12A5F4;
+}
+.link-skype:hover,
+.link-skype:focus {
+  text-decoration: none;
+  color: #0986ca;
+}
+.link-instagram {
+  color: #e4405f;
+}
+.link-instagram:hover,
+.link-instagram:focus {
+  text-decoration: none;
+  color: #d31e40;
+}
+.link-stackoverflow {
+  color: #8e8e92;
+}
+.link-stackoverflow:hover,
+.link-stackoverflow:focus {
+  text-decoration: none;
+  color: #747479;
+}
+.link-stackexchange {
+  color: #62b0df;
+}
+.link-stackexchange:hover,
+.link-stackexchange:focus {
+  text-decoration: none;
+  color: #389bd6;
+}
+.link-lastfm {
+  color: #d12127;
+}
+.link-lastfm:hover,
+.link-lastfm:focus {
+  text-decoration: none;
+  color: #a51a1f;
+}
+.link-soundcloud {
+  color: #e8822d;
+}
+.link-soundcloud:hover,
+.link-soundcloud:focus {
+  text-decoration: none;
+  color: #cc6916;
+}
+.link-googleplus {
+  color: #dd4b39;
+}
+.link-googleplus:hover,
+.link-googleplus:focus {
+  text-decoration: none;
+  color: #c23321;
+}
+.link-youtube {
+  color: #dd4b39;
+}
+.link-youtube:hover,
+.link-youtube:focus {
+  text-decoration: none;
+  color: #c23321;
+}
+.link-pinterest {
+  color: #bd091f;
+}
+.link-pinterest:hover,
+.link-pinterest:focus {
+  text-decoration: none;
+  color: #8c0717;
+}
+.link-gratipay {
+  color: #630;
+}
+.link-gratipay:hover,
+.link-gratipay:focus {
+  text-decoration: none;
+  color: #331a00;
+}
+.link-vimeo {
+  color: #17b3e8;
+}
+.link-vimeo:hover,
+.link-vimeo:focus {
+  text-decoration: none;
+  color: #128fba;
+}
+.link-behance {
+  color: #2c98cf;
+}
+.link-behance:hover,
+.link-behance:focus {
+  text-decoration: none;
+  color: #2379a5;
+}
+.link-codepen {
+  color: #1c1c1c;
+}
+.link-codepen:hover,
+.link-codepen:focus {
+  text-decoration: none;
+  color: #020202;
+}
+.link-foursquare {
+  color: #fa4778;
+}
+.link-foursquare:hover,
+.link-foursquare:focus {
+  text-decoration: none;
+  color: #f91554;
+}
+.link-reddit {
+  color: #545454;
+}
+.link-reddit:hover,
+.link-reddit:focus {
+  text-decoration: none;
+  color: #3b3b3b;
+}
+.link-spotify {
+  color: #acd200;
+}
+.link-spotify:hover,
+.link-spotify:focus {
+  text-decoration: none;
+  color: #829f00;
+}
+.link-tumblr {
+  color: #2d4661;
+}
+.link-tumblr:hover,
+.link-tumblr:focus {
+  text-decoration: none;
+  color: #1d2d3e;
+}
+.link-dribbble {
+  color: #ce366f;
+}
+.link-dribbble:hover,
+.link-dribbble:focus {
+  text-decoration: none;
+  color: #a82959;
+}
+.link-facebook {
+  color: #4b6daa;
+}
+.link-facebook:hover,
+.link-facebook:focus {
+  text-decoration: none;
+  color: #3b5687;
+}
+.link-angellist {
+  color: black;
+}
+.link-angellist:hover,
+.link-angellist:focus {
+  text-decoration: none;
+  color: #000000;
+}
+.link-bitbucket {
+  color: #205081;
+}
+.link-bitbucket:hover,
+.link-bitbucket:focus {
+  text-decoration: none;
+  color: #163758;
+}
+.link-hackernews {
+  color: #ff6600;
+}
+.link-hackernews:hover,
+.link-hackernews:focus {
+  text-decoration: none;
+  color: #cc5200;
+}
+.link-exercism {
+  color: #d81d4e;
+}
+.link-exercism:hover,
+.link-exercism:focus {
+  text-decoration: none;
+  color: #ab173e;
+}
+.link-blogger {
+  color: #FF9234;
+}
+.link-blogger:hover,
+.link-blogger:focus {
+  text-decoration: none;
+  color: #ff7701;
+}
+.link-medium {
+  color: #00AB6C;
+}
+.link-medium:hover,
+.link-medium:focus {
+  text-decoration: none;
+  color: #00784c;
+}
+.link-flickr {
+  color: black;
+}
+.link-flickr:hover,
+.link-flickr:focus {
+  text-decoration: none;
+  color: #000000;
+}
+.link-telegram {
+  color: #3BABDD;
+}
+.link-telegram:hover,
+.link-telegram:focus {
+  text-decoration: none;
+  color: #2291c3;
+}
+.card-skills {
+  position: relative;
+}
+.skill-level {
+  border-radius: 3px;
+  position: absolute;
+  top: 10px;
+  bottom: 10px;
+  left: 0;
+  width: 10px;
+  box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.2);
+}
+.skill-level .skill-progress {
+  position: absolute;
+  border-radius: 3px;
+  bottom: 0;
+  width: 100%;
+  -webkit-transition: height 1s ease;
+}
+.skill-level .skill-progress.beginner {
+  height: 50%;
+  background: #e74c3c;
+}
+.skill-level .skill-progress.intermediate {
+  height: 70%;
+  background: #f1c40f;
+}
+.skill-level .skill-progress.advanced {
+  height: 80%;
+  background: #428bca;
+}
+.skill-level .skill-progress.master {
+  height: 95%;
+  background: #5cb85c;
+}
+.skill-info {
+  margin-left: 15px;
+}
+@media (max-width: 480px) {
+  .skill-info {
+    margin-left: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .quote {
+    font-size: inherit;
+  }
+}
+.icon-meetup .path2:before {
+  margin-left: 0;
+}
+@media print {
+  a[href]:after {
+    content: none !important;
+  }
+  .profile-card {
+    text-align: center;
+  }
+  .profile-pic {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .profile-pic img {
+    border-radius: 0;
+  }
+  .name-and-profession {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 15px;
+  }
+  .contact-details .detail {
+    position: relative;
+    float: left;
+    width: 25%;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding: 0;
+  }
+  .floating-nav,
+  .floating-nav-trigger {
+    display: none;
+  }
+  .pagebreak {
+    page-break-before: always;
+  }
+}
+</style></head><body itemscope="itemscope" itemtype="http://schema.org/Person"><div class="container-fluid"><div class="row main clearfix"><a class="js-floating-nav-trigger floating-nav-trigger" href="#"><i class="icon-bars"></i><span class="close-icon">&times;</span></a><nav class="floating-nav js-floating-nav"><ul class="list-unstyled"><li><a href="#about"><i class="mr-10 icon-board"></i>About</a></li><li><a href="#work-experience"><i class="mr-10 icon-office"></i>Work Experience</a></li><li><a href="#skills"><i class="mr-10 icon-tools"></i>Skills</a></li><li><a href="#education"><i class="mr-10 icon-graduation-cap"></i>Education</a></li><li><a href="#references"><i class="mr-10 icon-thumbs-up"></i>References</a></li></ul></nav><section class="col-md-3 card-wrapper profile-card-wrapper affix"><div class="card profile-card"><span class="profile-pic-container"><div class="profile-pic"><img class="media-object img-circle center-block" data-src="holder.js/100x100" alt="Rob Booth" src="https://raw.githubusercontent.com/eoghain/eoghain.github.io/master/images/headshot.jpg" itemprop="image"/></div><div class="name-and-profession text-center"><h3 itemprop="name"><b>Rob Booth</b></h3><h5 class="text-muted" itemprop="jobTitle">Software Engineer</h5></div></span><hr/><div class="contact-details clearfix"><div class="detail"><span class="icon"><i class="icon fs-lg icon-location"></i></span><span class="info">San Diego, California, US</span></div><div class="detail"><span class="icon"><i class="icon fs-lg icon-phone"></i></span><span class="info" itemprop="telephone">(619) 666-6526</span></div><div class="detail"><span class="icon"><i class="icon fs-lg icon-mail"></i></span><span class="info"><a class="link-disguise" href="mailto:rob.o.booth@gmail.com" itemprop="email">rob.o.booth@gmail.com</a></span></div><div class="detail"><span class="icon"><i class="icon fs-lg icon-link"></i></span><span class="info"><a href="https://eoghain.github.io" target="_blank">https://eoghain.github.io</a></span></div><div class="detail"><span class="icon" title="Languages I speak"><i class="icon fs-lg icon-language"></i></span><span class="info">English</span></div></div><hr/><div class="social-links text-center"><div><a class="fs-2x social-link link-github icon-github" href="https://github.com/eoghain" target="_blank" data-toggle="tooltip" title="Rob Booth on Github"></a><a class="fs-2x social-link link-linkedin icon-linkedin" href="http://www.linkedin.com/in/robobooth" target="_blank" data-toggle="tooltip" title="Rob Booth on LinkedIn"></a></div></div></div></section><section class="col-md-9 card-wrapper pull-right"><div class="card background-card"><h4 class="text-uppercase">Background</h4><hr/><div class="background-details"><div class="detail" id="about"><div class="icon"><i class="fs-lg icon-board"></i><span class="mobile-title">About</span></div><div class="info"><h4 class="title text-uppercase">About</h4><div class="card card-nested"><div class="content mop-wrapper" itemprop="description"><p>I've been working as a software engineer for over 20 years.  I've been involved in every aspect of the Software Development Life Cycle (SDLC) from planning to deployment.  I've never met a challenge that I couldn't meet and typically meet ahead of schedule.</p>
+<p>For over 10 years I've been working exclusively in the mobile space and am intrigued by the ability to have ubiquitous computing with us wherever we go.  Designing applications that allow users to interact with them weather they are on a PC, tablet, phone, or even TV is a challenge I find very rewarding.</p>
+</div></div></div></div><div class="detail" id="work-experience"><div class="icon"><i class="fs-lg icon-office"></i><span class="mobile-title">Work Experience</span></div><div class="info"><h4 class="title text-uppercase">Work Experience</h4><ul class="list-unstyled clear-margin"><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><i class="icon-circle current-event" rel="tooltip" title="Currently Working" data-placement="left"></i><strong>Staff Software Engineer</strong>,&nbsp;</p><p class="text-muted"><small><span class="space-right">Sep, 2021 - Present</span></small></p><div class="mop-wrapper space-bottom"><p>Joined the Flipboard iOS development team and worked to modernize the 10+ year old code base while also implementing new features.</p>
+</div><ul><li class="mop-wrapper"><p>Converted large portions of the old Obj-C code base to Swift.</p>
+</li><li class="mop-wrapper"><p>Rewrote the settings implemention to be dynamic and code driven instead of plist based.</p>
+</li><li class="mop-wrapper"><p>Implemented the highly requested scroll back feature to help users return to were they were after accidentally scrolling back to the top of their feed.</p>
+</li></ul></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Staff Software Engineer</strong>,&nbsp;</p><p class="text-muted"><small><span class="space-right">Jan, 2020 - Aug, 2021</span><span><i class="icon-clock mr-5"></i>1 year 8 months</span></small></p><div class="mop-wrapper space-bottom"><p>Worked on various teams within Walmart as they took on the audacious task of re-writing their existing online and in-store apps into a single cohesive whole.  I eventually landed as the Team Lead for the iOS Cart development team.  Since we are a shopping app Cart was an integral part and I divided my time between coding, mentoring, and interfacing with external teams that utilized our offering.</p>
+</div><ul><li class="mop-wrapper"><p>Tracked down and identified a tricky race condition that had to do with when the internal webkit browser code reported that it finished loading and when it was actually finished with rendering SVG content that we needed to interact with.</p>
+</li><li class="mop-wrapper"><p>Mentored multiple developers who moved on to become Team Leads on there own teams.</p>
+</li><li class="mop-wrapper"><p>Took on the responsibility of being the Team Lead for Cart after employee attrition left the team with only a couple of months of total experience on the code base.</p>
+</li><li class="mop-wrapper"><p>Worked to make the team a cohesive unit that supported one another.</p>
+</li><li class="mop-wrapper"><p>Was the main point of contact for various features around the cart experience.</p>
+</li></ul></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Staff Software Engineer</strong>,&nbsp;</p><p class="text-muted"><small><span class="space-right">Nov, 2016 - Jan, 2020</span><span><i class="icon-clock mr-5"></i>3 years 1 month</span></small></p><div class="mop-wrapper space-bottom"><p>Re-joined the TurboTax Universal team and grew into the role of team lead providing direction and mentorship to the team.  Spent my time implementing new features while helping to re-design the code base to be better situated for the future direction of TurboTax.</p>
+</div><ul><li class="mop-wrapper"><p>Rewrote the companies tax estimation/forecasting tool TaxCaster from the ground up in Swift using current best practices and even building cross platform reusable data structures.</p>
+</li><li class="mop-wrapper"><p>Built the Drivers License import process to remove the tedium and error prone process of manually entry of the users personal information.  Build a AAMVA data parser to work across all currently published versions of the spec.</p>
+</li><li class="mop-wrapper"><p>Mentored many junior developers as well as Interns and Co-ops helping them learn how to work at an actual company as well as to advance their skills.</p>
+</li><li class="mop-wrapper"><p>Worked on cross functional teams to keep back and front end teams coordinated and working towards the same eventual goals.</p>
+</li></ul></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Senior Software Engineer</strong>,&nbsp;</p><p class="text-muted"><small><span class="space-right">Mar, 2016 - Nov, 2016</span><span><i class="icon-clock mr-5"></i>7 months</span></small></p><div class="mop-wrapper space-bottom"><p>Helped ResMed bring their newest sleep apnea machine to market using mobile devices as the interface for control and information gathering.  Pulling the interface out of the device and putting it in a mobile application allows us to create a much richer interface than any device with limited buttons and a VFD display.</p>
+</div><ul><li class="mop-wrapper"><p>Built a rules engine to convert between raw data and user interface elements allowing for clear separation between the two, and placing of rules in a data file instead of littering the code with fragile validation tests.</p>
+</li><li class="mop-wrapper"><p>Helped redesign and refactor various pieces of the codebase to be easier to maintain and extend.</p>
+</li></ul></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Software Engineer - Contractor</strong>,&nbsp;</p><p class="text-muted"><small><span class="space-right">Aug, 2015 - Mar, 2016</span><span><i class="icon-clock mr-5"></i>7 months</span></small></p><div class="mop-wrapper space-bottom"><p>Joined the TurboTax Universal team to help support shipping the 2015 Tax Year product.  I jumped right in helping the team to close out bugs and implement features.  Worked closely with the team sharing my knowledge and even helped mentor some interns and co-ops.</p>
+</div><ul><li class="mop-wrapper"><p>Took it on myself to redesign the layout engine for displaying tax forms on iPad devices to be more robust and easily understood.</p>
+</li><li class="mop-wrapper"><p>Help spearhead the efforts to remove warnings from the code base and cleaning up unit tests for a more robust code base.</p>
+</li></ul></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Software Engineer</strong>,&nbsp;</p><p class="text-muted"><small><span class="space-right">Sep, 2014 - Aug, 2015</span><span><i class="icon-clock mr-5"></i>11 months</span></small></p><div class="mop-wrapper space-bottom"><p>Took ownership of the application interface to Brain Corporation's flagship product BrainOS.  I was responsible for designing and developing the application that roboticists will use to interface and train their BrainOS enabled robots.  Worked with a small team to identify the weaknesses in current Robotic Operating Systems (ROS) and design and build a more robust and developer friendly replacement.  Worked to cross-compile and embed a C++ application into iOS devices making them a 1st class citizen in the distributed robotic environment that is BrainOS.</p>
+</div><ul><li class="mop-wrapper"><p>Redesigned training interface to be more understandable.</p>
+</li><li class="mop-wrapper"><p>Squashed many bugs and memory leaks that prevented training application from running more that 5 minutes at a time.</p>
+</li></ul></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Principal Software Engineer / Solutions Architect</strong>,&nbsp;</p><p class="text-muted"><small><span class="space-right">Jan, 2008 - Sep, 2014</span><span><i class="icon-clock mr-5"></i>6 years 8 months</span></small></p><div class="mop-wrapper space-bottom"><p>Was tasked with building a mobile application on apples iOS devices (iPhone,iPad, iPod) to allow students access to there online classroom while on the go.  I took the project from a simple idea to a completed project in just under 6 months by leading a team of 5 developers.  Built server interfaces to both mobile devices and with 3rd party vendors.  Worked with vendors to design and build solutions to bring their tools to our students and employees in a timely and consistent manor.  Worked closely with principal members of the business to bring quality solutions to everyday problems and automate tasks giving employees more time to focus on other aspects of their jobs.</p>
+</div><ul><li class="mop-wrapper"><p>Lead team designing and building a mobile access platform on iOS devices using Objective-C/Cocoa, CoreData, and some CoreAnimation.</p>
+</li><li class="mop-wrapper"><p>Worked within the iOS framework to get the best possible performance out of our application, making web calls on background threads, caching data, etc.</p>
+</li><li class="mop-wrapper"><p>Held architectural oversight of Android version of application</p>
+</li><li class="mop-wrapper"><p>Built C# and PHP interfaces to 3rd party APIs to manage student data.</p>
+</li></ul></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Software Engineer - Contractor</strong>,&nbsp;</p><p class="text-muted"><small><span class="space-right">Sep, 2006 - Aug, 2007</span><span><i class="icon-clock mr-5"></i>11 months</span></small></p><div class="mop-wrapper space-bottom"><p>Helped build, design, and debug web based applications used by brokers in the vehicle transportation industry.</p>
+</div><ul><li class="mop-wrapper"><p>Updated existing PHP4 applications to PHP5</p>
+</li><li class="mop-wrapper"><p>Converted procedural code to object oriented</p>
+</li></ul></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Owner / Operator</strong>,&nbsp;</p><p class="text-muted"><small><span class="space-right">Sep, 2005 - Sep, 2006</span><span><i class="icon-clock mr-5"></i>1 year</span></small></p><div class="mop-wrapper space-bottom"><p>Owned and operated a local Irish pub.  Managed up to 6 employees.  Handled inventory, purchasing, payroll, marketing, and day-to-day operations.</p>
+</div><ul><li class="mop-wrapper"><p>Doubled the daily revenue.</p>
+</li></ul></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Software Engineer</strong>,&nbsp;</p><p class="text-muted"><small><span class="space-right">Mar, 2003 - Aug, 2005</span><span><i class="icon-clock mr-5"></i>2 years 6 months</span></small></p><div class="mop-wrapper space-bottom"><p>Used .Net, C#, SOAP, and PHP to design, build and implement a Web Service based tool used to configure remote machines.  Designed and built web based reporting solution.</p>
+</div><ul><li class="mop-wrapper"><p>Modified MySQL database design to be better normalized and efficient.</p>
+</li><li class="mop-wrapper"><p>Built PHP based Web Service for interaction with a C# client and the MySQL database.</p>
+</li><li class="mop-wrapper"><p>Worked on a C# client for the PHP Web Service.</p>
+</li><li class="mop-wrapper"><p>Built a PHP client for the PHP Web Service for real time delivery and display of reporting data.</p>
+</li></ul></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Software Engineer II</strong>,&nbsp;</p><p class="text-muted"><small><span class="space-right">Jul, 2001 - Mar, 2003</span><span><i class="icon-clock mr-5"></i>1 year 8 months</span></small></p><div class="mop-wrapper space-bottom"><p>Took ownership of internal database applications that tracked the release cycle of consumer products. Worked with my users to make the tools more efficient and reliable.  Worked with users to bring tools into engineering standards while maintaining functionality.</p>
+</div><ul><li class="mop-wrapper"><p>Ported Access database to PostgreSQL.</p>
+</li><li class="mop-wrapper"><p>Updated Access client application to access new PostgreSQL database using ODBC.</p>
+</li><li class="mop-wrapper"><p>Worked on plans and requirements gathering to redesign tools for better efficiency.</p>
+</li><li class="mop-wrapper"><p>Built web based reporting mechanisms for real time access to data via web pages or sent email.</p>
+</li></ul></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Senior Programmer</strong>,&nbsp;</p><p class="text-muted"><small><span class="space-right">Dec, 2000 - Jul, 2001</span><span><i class="icon-clock mr-5"></i>7 months</span></small></p><div class="mop-wrapper space-bottom"><p>Developed an Application Service Provider platform used to incorporate 3rd party web applications into a single web interface with a uniform look and feel.</p>
+</div><ul><li class="mop-wrapper"><p>Designed XML file transmission method for 3rd party web applications to talk with the platform.</p>
+</li><li class="mop-wrapper"><p>Designed web based application that would talk via HTTP to a 3rd party web application.</p>
+</li><li class="mop-wrapper"><p>Designed a Template engine that would use data gathered from a 3rd party and display it in a uniform environment.</p>
+</li><li class="mop-wrapper"><p>Designed a CSS engine for modifying the way a template would be displayed no matter what the data.</p>
+</li></ul></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Senior Programmer / Director of Technology Solutions</strong>,&nbsp;</p><p class="text-muted"><small><span class="space-right">Mar, 2000 - Sep, 2000</span><span><i class="icon-clock mr-5"></i>6 months</span></small></p><div class="mop-wrapper space-bottom"><p>I managed 12 people in developing and maintain web based applications and dynamic web sites.  Using PHP to connect to an Oracle database on a Solaris UNIX box I designed and built, or helped build many of the backend structures needed to keep the system running smoothly.</p>
+</div></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Programmer / DBA / MIS</strong>,&nbsp;</p><p class="text-muted"><small><span class="space-right">Aug, 1999 - Mar, 2000</span><span><i class="icon-clock mr-5"></i>7 months</span></small></p><div class="mop-wrapper space-bottom"><p>Working on my own I developed a method of automatically transferring Xbase (.dbf) files from a Windows based system into a Linux based system.  These files were then loaded into a MySQL database for use with PHP programs and web display of the data.  I set up Apache to parse the PHP files that connected to the MySQL database to retrieve and display the data to the user.</p>
+</div></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Programmer</strong>,&nbsp;</p><p class="text-muted"><small><span class="space-right">Jul, 1998 - Aug, 1999</span><span><i class="icon-clock mr-5"></i>1 year 1 month</span></small></p><div class="mop-wrapper space-bottom"><p>With only an outline and instructions about what technologies I could and couldn’t use I built a system to maintain a source code tree.  This system connected to SCCS to manage the archiving and versioning of the files, but gave the programmers an easy to use interface for checking out code and working on it.  The system maintained a queue of file requests, removing the tedious task of a programmer having to keep checking to see if a file they needed was available.  This code streamlined the programmer’s workday and speeded up production.</p>
+</div></div></li></ul></div></div><div class="detail" id="skills"><div class="icon"><i class="fs-lg icon-tools"></i><span class="mobile-title">Skills</span></div><div class="info"><h4 class="title text-uppercase">Skills</h4><div class="content"><ul class="list-unstyled clear-margin"><li class="card card-nested card-skills"><div class="skill-level" data-toggle="tooltip" title="Master" data-placement="left"><div class="skill-progress master"></div></div><div class="skill-info"><strong>iOS Development</strong><div class="space-top labels"><span class="label label-keyword"><p>iOS</p>
+</span><span class="label label-keyword"><p>Swift</p>
+</span><span class="label label-keyword"><p>Objective-C</p>
+</span><span class="label label-keyword"><p>CocoaTouch</p>
+</span><span class="label label-keyword"><p>CoreData</p>
+</span></div></div></li><li class="card card-nested card-skills"><div class="skill-level" data-toggle="tooltip" title="Master" data-placement="left"><div class="skill-progress master"></div></div><div class="skill-info"><strong>APIs</strong><div class="space-top labels"><span class="label label-keyword"><p>REST</p>
+</span><span class="label label-keyword"><p>JSON</p>
+</span><span class="label label-keyword"><p>Design</p>
+</span></div></div></li><li class="card card-nested card-skills"><div class="skill-level" data-toggle="tooltip" title="Intermediate" data-placement="left"><div class="skill-progress intermediate"></div></div><div class="skill-info"><strong>Web Development</strong><div class="space-top labels"><span class="label label-keyword"><p>C#</p>
+</span><span class="label label-keyword"><p>PHP</p>
+</span><span class="label label-keyword"><p>Javascript</p>
+</span><span class="label label-keyword"><p>CSS</p>
+</span><span class="label label-keyword"><p>HTML</p>
+</span></div></div></li><li class="card card-nested card-skills"><div class="skill-level" data-toggle="tooltip" title="Intermediate" data-placement="left"><div class="skill-progress intermediate"></div></div><div class="skill-info"><strong>Support</strong><div class="space-top labels"><span class="label label-keyword"><p>SQL</p>
+</span><span class="label label-keyword"><p>Python</p>
+</span><span class="label label-keyword"><p>XML</p>
+</span></div></div></li></ul></div></div></div><div class="detail" id="education"><div class="icon"><i class="fs-lg icon-graduation-cap"></i><span class="mobile-title">Education</span></div><div class="info"><h4 class="title text-uppercase">Education</h4><div class="content"><ul class="list-unstyled clear-margin"><li class="card card-nested"><div class="content"><p class="clear-margin relative"><strong>General Education, ,&nbsp;</strong>Grossmont High School</p><p class="text-muted clear-margin"><small>Sep, 1986 - Jun, 1990</small></p><i></i></div></li></ul></div></div></div><div class="detail" id="references"><div class="icon"><i class="fs-lg icon-thumbs-up"></i><span class="mobile-title">References</span></div><div class="info"><h4 class="title text-uppercase">References</h4><div class="content"><ul class="list-unstyled clear-margin"><li class="card card-nested">Noelle Stransky<blockquote class="quote"><div class="mop-wrapper"><p>Rob is an excellent developer to work with. He’s passionate about the design of the products he works on and we would often collaborate on design decisions. Rob is one of those developers who will fight for the right solution to a product even if its not the popular idea. Once he’s got a problem to solve he will often run with it and try to find the best and most innovative way to solve the problem. He is a great person to work with and I will miss collaborating with him on projects.</p>
+</div></blockquote></li><li class="card card-nested">Lucien Dupont<blockquote class="quote"><div class="mop-wrapper"><p>Rob is one of the best iOS engineers I've worked with. His attention to detail and passion for creating a truly outstanding app helped TurboTax iOS become that much better and more stable in his time here.</p>
+<p>He'd be one of the first people I seek out if I had my own company and was looking for an excellent developer.</p>
+</div></blockquote></li></ul></div></div></div></div></div></section></div></div><script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script><script>$(function () {
+  var toggleFloatingMenu = function() {
+    $( '.js-floating-nav' ).toggleClass( 'is-visible' );
+    $( '.js-floating-nav-trigger' ).toggleClass( 'is-open' );
+  };
 
-    </style>
-  </head>
-  <body>
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12">
-          <div id="photo-header" class="text-center">
-            <!-- PHOTO (AVATAR) -->
-            <div id="photo">
-              <img src="&#x2F;&#x2F;www.gravatar.com&#x2F;avatar&#x2F;28953a8a82fc5800a821728573158893?s&#x3D;200&amp;r&#x3D;pg&amp;d&#x3D;mm" alt="avatar">
-            </div>
-            <div id="text-header" >
-              <h1>Rob Booth<br><span>Software Engineer</span></h1>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-xs-12 col-sm-7">
-          <!-- ABOUT ME -->
-          <div class="box">
-            <h2><i class="fas fa-user ico"></i> About</h2>
-            <p>I've been working as a software engineer for over 20 years.  I've been involved in every aspect of the Software Development Life Cycle (SDLC) from planning to deployment.  I've never met a challenge that I couldn't meet and typically meet ahead of schedule.  
+  $( ".background-card" ).css( "min-height", window.screen.availHeight + "px" );
+  $( "[data-toggle=tooltip]" ).tooltip();
+  $( '.js-floating-nav-trigger' ).on( 'click', function(e) {
+    e.preventDefault();
+    toggleFloatingMenu();
+  });
+  $( '.js-floating-nav a' ).on( 'click', toggleFloatingMenu );
 
-For over 10 years I've been working exclusively in the mobile space and am intrigued by the ability to have ubiquitous computing with us wherever we go.  Designing applications that allow users to interact with them weather they are on a PC, tablet, phone, or even TV is a challenge I find very rewarding.</p>
-          </div>
-          <!-- WORK EXPERIENCE -->
-          <div class="box">
-            <h2><i class= "fas fa-suitcase ico"></i> Work Experience</h2>
-              <div class="job clearfix">
-                <div class="row">
-                  <div class="details">
-                    <div class="where">
-                      
-                    </div>
-                    <div class="year">January 2020 – Present</div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="job-details col-xs-11">
-                    <div class="profession">Staff Software Engineer</div>
-                    <div class="description">
-                      Worked on various teams within Walmart as they took on the audacious task of re-writing their existing online and in-store apps into a single cohesive whole.  I eventually landed as the Team Lead for the iOS Cart development team.  Since we are a shopping app Cart was an integral part and I divided my time between coding, mentoring, and interfacing with external teams that utilized our offering.
-                      <div class="highlights">Highlights</div>
-                      <ul class="list-group">
-                        <li class="list-group-item">Tracked down and identified a tricky race condition that had to do with when the internal webkit browser code reported that it finished loading and when it was actually finished with rendering SVG content that we needed to interact with.</li>
-                        <li class="list-group-item">Mentored multiple developers who moved on to become Team Leads on there own teams.</li>
-                        <li class="list-group-item">Took on the responsibility of being the Team Lead for Cart after employee attrition left the team with only a couple of months of total experience on the code base.</li>
-                        <li class="list-group-item">Worked to make the team a cohesive unit that supported one another.</li>
-                        <li class="list-group-item">Was the main point of contact for various features around the cart experience.</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="job clearfix">
-                <div class="row">
-                  <div class="details">
-                    <div class="where">
-                      
-                    </div>
-                    <div class="year">November 2016 – Present</div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="job-details col-xs-11">
-                    <div class="profession">Staff Software Engineer</div>
-                    <div class="description">
-                      Re-joined the TurboTax Universal team and grew into the role of team lead providing direction and mentorship to the team.  Spent my time implementing new features while helping to re-design the code base to be better situated for the future direction of TurboTax.
-                      <div class="highlights">Highlights</div>
-                      <ul class="list-group">
-                        <li class="list-group-item">Rewrote the companies tax estimation/forecasting tool TaxCaster from the ground up in Swift using current best practices and even building cross platform reusable data structures.</li>
-                        <li class="list-group-item">Built the Drivers License import process to remove the tedium and error prone process of manually entry of the users personal information.  Build a AAMVA data parser to work across all currently published versions of the spec.</li>
-                        <li class="list-group-item">Mentored many junior developers as well as Interns and Co-ops helping them learn how to work at an actual company as well as to advance their skills.</li>
-                        <li class="list-group-item">Worked on cross functional teams to keep back and front end teams coordinated and working towards the same eventual goals.</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="job clearfix">
-                <div class="row">
-                  <div class="details">
-                    <div class="where">
-                      
-                    </div>
-                    <div class="year">March 2016 – November 2016</div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="job-details col-xs-11">
-                    <div class="profession">Senior Software Engineer</div>
-                    <div class="description">
-                      Helped ResMed bring their newest sleep apnea machine to market using mobile devices as the interface for control and information gathering.  Pulling the interface out of the device and putting it in a mobile application allows us to create a much richer interface than any device with limited buttons and a VFD display.
-                      <div class="highlights">Highlights</div>
-                      <ul class="list-group">
-                        <li class="list-group-item">Built a rules engine to convert between raw data and user interface elements allowing for clear separation between the two, and placing of rules in a data file instead of littering the code with fragile validation tests.</li>
-                        <li class="list-group-item">Helped redesign and refactor various pieces of the codebase to be easier to maintain and extend.</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="job clearfix">
-                <div class="row">
-                  <div class="details">
-                    <div class="where">
-                      
-                    </div>
-                    <div class="year">August 2015 – March 2016</div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="job-details col-xs-11">
-                    <div class="profession">Software Engineer - Contractor</div>
-                    <div class="description">
-                      Joined the TurboTax Universal team to help support shipping the 2015 Tax Year product.  I jumped right in helping the team to close out bugs and implement features.  Worked closely with the team sharing my knowledge and even helped mentor some interns and co-ops.
-                      <div class="highlights">Highlights</div>
-                      <ul class="list-group">
-                        <li class="list-group-item">Took it on myself to redesign the layout engine for displaying tax forms on iPad devices to be more robust and easily understood.</li>
-                        <li class="list-group-item">Help spearhead the efforts to remove warnings from the code base and cleaning up unit tests for a more robust code base.</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="job clearfix">
-                <div class="row">
-                  <div class="details">
-                    <div class="where">
-                      
-                    </div>
-                    <div class="year">September 2014 – August 2015</div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="job-details col-xs-11">
-                    <div class="profession">Software Engineer</div>
-                    <div class="description">
-                      Took ownership of the application interface to Brain Corporation's flagship product BrainOS.  I was responsible for designing and developing the application that roboticists will use to interface and train their BrainOS enabled robots.  Worked with a small team to identify the weaknesses in current Robotic Operating Systems (ROS) and design and build a more robust and developer friendly replacement.  Worked to cross-compile and embed a C++ application into iOS devices making them a 1st class citizen in the distributed robotic environment that is BrainOS.
-                      <div class="highlights">Highlights</div>
-                      <ul class="list-group">
-                        <li class="list-group-item">Redesigned training interface to be more understandable.</li>
-                        <li class="list-group-item">Squashed many bugs and memory leaks that prevented training application from running more that 5 minutes at a time.</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="job clearfix">
-                <div class="row">
-                  <div class="details">
-                    <div class="where">
-                      
-                    </div>
-                    <div class="year">January 2008 – September 2014</div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="job-details col-xs-11">
-                    <div class="profession">Principal Software Engineer &#x2F; Solutions Architect</div>
-                    <div class="description">
-                      Was tasked with building a mobile application on apples iOS devices (iPhone,iPad, iPod) to allow students access to there online classroom while on the go.  I took the project from a simple idea to a completed project in just under 6 months by leading a team of 5 developers.  Built server interfaces to both mobile devices and with 3rd party vendors.  Worked with vendors to design and build solutions to bring their tools to our students and employees in a timely and consistent manor.  Worked closely with principal members of the business to bring quality solutions to everyday problems and automate tasks giving employees more time to focus on other aspects of their jobs.
-                      <div class="highlights">Highlights</div>
-                      <ul class="list-group">
-                        <li class="list-group-item">Lead team designing and building a mobile access platform on iOS devices using Objective-C/Cocoa, CoreData, and some CoreAnimation.</li>
-                        <li class="list-group-item">Worked within the iOS framework to get the best possible performance out of our application, making web calls on background threads, caching data, etc.</li>
-                        <li class="list-group-item">Held architectural oversight of Android version of application</li>
-                        <li class="list-group-item">Built C# and PHP interfaces to 3rd party APIs to manage student data.</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="job clearfix">
-                <div class="row">
-                  <div class="details">
-                    <div class="where">
-                      
-                    </div>
-                    <div class="year">September 2006 – August 2007</div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="job-details col-xs-11">
-                    <div class="profession">Software Engineer - Contractor</div>
-                    <div class="description">
-                      Helped build, design, and debug web based applications used by brokers in the vehicle transportation industry.
-                      <div class="highlights">Highlights</div>
-                      <ul class="list-group">
-                        <li class="list-group-item">Updated existing PHP4 applications to PHP5</li>
-                        <li class="list-group-item">Converted procedural code to object oriented</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="job clearfix">
-                <div class="row">
-                  <div class="details">
-                    <div class="where">
-                      
-                    </div>
-                    <div class="year">September 2005 – September 2006</div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="job-details col-xs-11">
-                    <div class="profession">Owner &#x2F; Operator</div>
-                    <div class="description">
-                      Owned and operated a local Irish pub.  Managed up to 6 employees.  Handled inventory, purchasing, payroll, marketing, and day-to-day operations.
-                      <div class="highlights">Highlights</div>
-                      <ul class="list-group">
-                        <li class="list-group-item">Doubled the daily revenue.</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="job clearfix">
-                <div class="row">
-                  <div class="details">
-                    <div class="where">
-                      
-                    </div>
-                    <div class="year">March 2003 – August 2005</div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="job-details col-xs-11">
-                    <div class="profession">Software Engineer</div>
-                    <div class="description">
-                      Used .Net, C#, SOAP, and PHP to design, build and implement a Web Service based tool used to configure remote machines.  Designed and built web based reporting solution.
-                      <div class="highlights">Highlights</div>
-                      <ul class="list-group">
-                        <li class="list-group-item">Modified MySQL database design to be better normalized and efficient.</li>
-                        <li class="list-group-item">Built PHP based Web Service for interaction with a C# client and the MySQL database.</li>
-                        <li class="list-group-item">Worked on a C# client for the PHP Web Service.</li>
-                        <li class="list-group-item">Built a PHP client for the PHP Web Service for real time delivery and display of reporting data.</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="job clearfix">
-                <div class="row">
-                  <div class="details">
-                    <div class="where">
-                      
-                    </div>
-                    <div class="year">July 2001 – March 2003</div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="job-details col-xs-11">
-                    <div class="profession">Software Engineer II</div>
-                    <div class="description">
-                      Took ownership of internal database applications that tracked the release cycle of consumer products. Worked with my users to make the tools more efficient and reliable.  Worked with users to bring tools into engineering standards while maintaining functionality.
-                      <div class="highlights">Highlights</div>
-                      <ul class="list-group">
-                        <li class="list-group-item">Ported Access database to PostgreSQL.</li>
-                        <li class="list-group-item">Updated Access client application to access new PostgreSQL database using ODBC.</li>
-                        <li class="list-group-item">Worked on plans and requirements gathering to redesign tools for better efficiency.</li>
-                        <li class="list-group-item">Built web based reporting mechanisms for real time access to data via web pages or sent email.</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="job clearfix">
-                <div class="row">
-                  <div class="details">
-                    <div class="where">
-                      
-                    </div>
-                    <div class="year">December 2000 – July 2001</div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="job-details col-xs-11">
-                    <div class="profession">Senior Programmer</div>
-                    <div class="description">
-                      Developed an Application Service Provider platform used to incorporate 3rd party web applications into a single web interface with a uniform look and feel.
-                      <div class="highlights">Highlights</div>
-                      <ul class="list-group">
-                        <li class="list-group-item">Designed XML file transmission method for 3rd party web applications to talk with the platform.</li>
-                        <li class="list-group-item">Designed web based application that would talk via HTTP to a 3rd party web application.</li>
-                        <li class="list-group-item">Designed a Template engine that would use data gathered from a 3rd party and display it in a uniform environment.</li>
-                        <li class="list-group-item">Designed a CSS engine for modifying the way a template would be displayed no matter what the data.</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="job clearfix">
-                <div class="row">
-                  <div class="details">
-                    <div class="where">
-                      
-                    </div>
-                    <div class="year">March 2000 – September 2000</div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="job-details col-xs-11">
-                    <div class="profession">Senior Programmer &#x2F; Director of Technology Solutions</div>
-                    <div class="description">
-                      I managed 12 people in developing and maintain web based applications and dynamic web sites.  Using PHP to connect to an Oracle database on a Solaris UNIX box I designed and built, or helped build many of the backend structures needed to keep the system running smoothly.
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="job clearfix">
-                <div class="row">
-                  <div class="details">
-                    <div class="where">
-                      
-                    </div>
-                    <div class="year">August 1999 – March 2000</div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="job-details col-xs-11">
-                    <div class="profession">Programmer &#x2F; DBA &#x2F; MIS</div>
-                    <div class="description">
-                      Working on my own I developed a method of automatically transferring Xbase (.dbf) files from a Windows based system into a Linux based system.  These files were then loaded into a MySQL database for use with PHP programs and web display of the data.  I set up Apache to parse the PHP files that connected to the MySQL database to retrieve and display the data to the user.
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="job clearfix">
-                <div class="row">
-                  <div class="details">
-                    <div class="where">
-                      
-                    </div>
-                    <div class="year">July 1998 – August 1999</div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="job-details col-xs-11">
-                    <div class="profession">Programmer</div>
-                    <div class="description">
-                      With only an outline and instructions about what technologies I could and couldn’t use I built a system to maintain a source code tree.  This system connected to SCCS to manage the archiving and versioning of the files, but gave the programmers an easy to use interface for checking out code and working on it.  The system maintained a queue of file requests, removing the tedious task of a programmer having to keep checking to see if a file they needed was available.  This code streamlined the programmer’s workday and speeded up production.
-                    </div>
-                  </div>
-                </div>
-              </div>
-          </div>
-        </div>
-        <div class="col-xs-12 col-sm-5">
-          <!-- CONTACT -->
-          <div class="box clearfix">
-            <h2><i class="fas fa-bullseye ico"></i> Contact</h2>
-            <div class="contact-item">
-              <div class="icon pull-left text-center"><span class="fas fa-map-marker fa-fw"></span></div>
-              <div class="title pull-right">4306 E. Overlook Dr.</div>
-              <div class="title  pull-right">San Diego, California CA 94115 US</div>
-            </div>
-            <div class="contact-item">
-              <div class="icon pull-left text-center"><span class="fas fa-phone fa-fw"></span></div>
-              <div class="title only pull-right">(619) 666-6526</div>
-            </div>
-            <div class="contact-item">
-              <div class="icon pull-left text-center"><span class="fas fa-envelope fa-fw"></span></div>
-              <div class="title only pull-right"><a href="mailto:rob.o.booth@gmail.com" target="_blank">rob.o.booth@gmail.com</a></div>
-            </div>
-            <div class="contact-item">
-              <div class="icon pull-left text-center"><span class="fab fa-github fa-fw"></span></div>
-              <div class="title pull-right">Github</div>
-              <div class="description pull-right"><a href="https:&#x2F;&#x2F;github.com&#x2F;eoghain" target="_blank">https:&#x2F;&#x2F;github.com&#x2F;eoghain</a></div>
-            </div>
-            <div class="contact-item">
-              <div class="icon pull-left text-center"><span class="fab fa-linkedin fa-fw"></span></div>
-              <div class="title pull-right">LinkedIn</div>
-              <div class="description pull-right"><a href="http:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;robobooth" target="_blank">http:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;robobooth</a></div>
-            </div>
-          </div>
-          <!-- EDUCATION -->
-          <div class="box">
-            <h2><i class="fas fa-university ico"></i> Education</h2>
-            <ul id="education" class="clearfix">
-              <li>
-                <div class="year pull-left">1986 1990</div>
-                <div class="description pull-right">
-                  <h3>Grossmont High School</h3>
-                  <div class="where"></div>
-                  
-                  <p>General Education</p>
-                </div>
-              </li>
-            </ul>
-          </div>
-          <!-- SKILLS -->
-          <div class="box">
-            <h2><i class="fas fa-tasks ico"></i> Skills</h2>
-            <div class="skills clearfix">
-              <div class="item-skills">
-                  iOS Development
-                  <span class="skill-level">Master</span>
-              </div>
-              <div class="col-sm-offset-1 col-sm-12 clearfix">
-                <span class= "skill badge">iOS</span>
-                <span class= "skill badge">Swift</span>
-                <span class= "skill badge">Objective-C</span>
-                <span class= "skill badge">CocoaTouch</span>
-                <span class= "skill badge">CoreData</span>
-              </div>
-            </div>
-            <div class="skills clearfix">
-              <div class="item-skills">
-                  APIs
-                  <span class="skill-level">Master</span>
-              </div>
-              <div class="col-sm-offset-1 col-sm-12 clearfix">
-                <span class= "skill badge">REST</span>
-                <span class= "skill badge">JSON</span>
-                <span class= "skill badge">Design</span>
-              </div>
-            </div>
-            <div class="skills clearfix">
-              <div class="item-skills">
-                  Web Development
-                  <span class="skill-level">Intermediate</span>
-              </div>
-              <div class="col-sm-offset-1 col-sm-12 clearfix">
-                <span class= "skill badge">C#</span>
-                <span class= "skill badge">PHP</span>
-                <span class= "skill badge">Javascript</span>
-                <span class= "skill badge">CSS</span>
-                <span class= "skill badge">HTML</span>
-              </div>
-            </div>
-            <div class="skills clearfix">
-              <div class="item-skills">
-                  Support
-                  <span class="skill-level">Intermediate</span>
-              </div>
-              <div class="col-sm-offset-1 col-sm-12 clearfix">
-                <span class= "skill badge">SQL</span>
-                <span class= "skill badge">Python</span>
-                <span class= "skill badge">XML</span>
-              </div>
-            </div>
-          </div>
-          <div class="box">
-            <h2><i class= "fas fa-check-square ico"></i> References</h2>
-            <blockquote>
-              <div>Rob is an excellent developer to work with. He’s passionate about the design of the products he works on and we would often collaborate on design decisions. Rob is one of those developers who will fight for the right solution to a product even if its not the popular idea. Once he’s got a problem to solve he will often run with it and try to find the best and most innovative way to solve the problem. He is a great person to work with and I will miss collaborating with him on projects.</div>
-              <footer>
-                <a href="" target= "_blank">Noelle Stransky</a>
-              </footer>
-            </blockquote><br>
-            <blockquote>
-              <div>Rob is one of the best iOS engineers I've worked with. His attention to detail and passion for creating a truly outstanding app helped TurboTax iOS become that much better and more stable in his time here. 
+  $("#remaining-profiles").on('show.bs.collapse', function() {
+    $( '.js-profiles-collapse > i' )
+      .removeClass( 'icon-chevron-down' )
+      .addClass( 'icon-chevron-up' );
+  });
 
-He'd be one of the first people I seek out if I had my own company and was looking for an excellent developer.</div>
-              <footer>
-                <a href="" target= "_blank">Lucien Dupont</a>
-              </footer>
-            </blockquote><br>
-          </div>
-        </div>
-      </div>
-    </div>
-
-  </body>
-</html>
+  $("#remaining-profiles").on('hidden.bs.collapse', function() {
+    $( '.js-profiles-collapse > i' )
+      .removeClass( 'icon-chevron-up' )
+      .addClass( 'icon-chevron-down' );
+  });
+});
+</script><script>WebFontConfig = {
+  google: { families: [ 'Lato:300,400,700:latin' ] }
+};
+(function() {
+  var wf = document.createElement('script');
+  wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+    '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+  wf.type = 'text/javascript';
+  wf.async = 'true';
+  var s = document.getElementsByTagName('script')[0];
+  s.parentNode.insertBefore(wf, s);
+})();</script></body></html>

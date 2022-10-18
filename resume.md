@@ -8,9 +8,7 @@ permalink: /resume/
 Email: [rob.o.booth@gmail.com](mailto:rob.o.booth@gmail.com)  
 
 Phone: (619) 666-6526  
-Address: 4306 E. Overlook Dr.  
 City: San Diego  
-Postal Code: CA 94115  
 Country: US  
 Country: California  
 
@@ -27,8 +25,17 @@ For over 10 years I've been working exclusively in the mobile space and am intri
 
 ## Work
 
+### Staff Software Engineer, [Flipboard, Inc.](http://flipboard.com)
+**2021-09-01**
+
+* Converted large portions of the old Obj-C code base to Swift.
+* Rewrote the settings implemention to be dynamic and code driven instead of plist based.
+* Implemented the highly requested scroll back feature to help users return to were they were after accidentally scrolling back to the top of their feed.
+
+Joined the Flipboard iOS development team and worked to modernize the 10+ year old code base while also implementing new features.
+
 ### Staff Software Engineer, [Walmart](http://walmart.com)
-***2020-01-01***
+***2020-01-01 - 2021-08-31***
 
 * Tracked down and identified a tricky race condition that had to do with when the internal webkit browser code reported that it finished loading and when it was actually finished with rendering SVG content that we needed to interact with.
 * Mentored multiple developers who moved on to become Team Leads on there own teams.

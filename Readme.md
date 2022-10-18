@@ -29,12 +29,13 @@ Experimental section for building a referential tutorial blogging system
 ## Resume
 Resume is a bit more difficult as it's build using the `resume.json` file and converted via the [JSON Resume](https://jsonresume.org/) tools.  You'll need to install those tools and use them to re-generate after update the file.
 
-* `npm install -g resume-cli`
+* `npm i resume-cli`
 
 There are 2 HTML versions of the resume `resume.html` which uses the **Elegant** theme and `resume2.html` which uses the **Kendall** theme.
 You will need to install the themes:
 
-* `npm install -g jsonresume-theme-elegant`
-* `npm install -g jsonresume-theme-kendall`
+* `npm i jsonresume-theme-elegant`
+* `npm i jsonresume-theme-kendall`
+* `npm i jsonresume-theme-paper`
 
-And to generate the HTML version use `resume export --theme elegant resume.html` and `resume export --theme kendall resume2.html`
+And to generate the HTML version use `npx resume export --theme paper resume.html`, `npx resume export --theme elegant resume2.html`, and `npx resume export --theme kendall resume3.html`

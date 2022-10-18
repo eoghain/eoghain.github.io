@@ -8,8 +8,6 @@
     "phone": "(619) 666-6526",
     "summary": "I've been working as a software engineer for over 20 years.  I've been involved in every aspect of the Software Development Life Cycle (SDLC) from planning to deployment.  I've never met a challenge that I couldn't meet and typically meet ahead of schedule.  \n\nFor over 10 years I've been working exclusively in the mobile space and am intrigued by the ability to have ubiquitous computing with us wherever we go.  Designing applications that allow users to interact with them weather they are on a PC, tablet, phone, or even TV is a challenge I find very rewarding.",
     "location": {
-      "address": "4306 E. Overlook Dr.",
-      "postalCode": "CA 94115",
       "city": "San Diego",
       "countryCode": "US",
       "region": "California"
@@ -26,11 +24,24 @@
     ]
   },
   "work": [
+     {
+       "company": "Flipboard Inc",
+       "position": "Staff Software Engineer",
+       "website": "http://flipboard.com",
+       "startDate": "2021-09-01",
+       "summary": "Joined the Flipboard iOS development team and worked to modernize the 10+ year old code base while also implementing new features.",
+       "highlights": [
+           "Converted large portions of the old Obj-C code base to Swift.",
+           "Rewrote the settings implemention to be dynamic and code driven instead of plist based.",
+           "Implemented the highly requested scroll back feature to help users return to were they were after accidentally scrolling back to the top of their feed."
+       ]
+     },
     {
       "company": "Walmart",
       "position": "Staff Software Engineer",
       "website": "http://walmart.com",
       "startDate": "2020-01-01",
+      "endDate": "2021-08-31",
       "summary": "Worked on various teams within Walmart as they took on the audacious task of re-writing their existing online and in-store apps into a single cohesive whole.  I eventually landed as the Team Lead for the iOS Cart development team.  Since we are a shopping app Cart was an integral part and I divided my time between coding, mentoring, and interfacing with external teams that utilized our offering.",
       "highlights": [
           "Tracked down and identified a tricky race condition that had to do with when the internal webkit browser code reported that it finished loading and when it was actually finished with rendering SVG content that we needed to interact with.",
@@ -45,6 +56,7 @@
       "position": "Staff Software Engineer",
       "website": "http://intuit.com",
       "startDate": "2016-11-15",
+      "endDate": "2020-01-01",
       "summary": "Re-joined the TurboTax Universal team and grew into the role of team lead providing direction and mentorship to the team.  Spent my time implementing new features while helping to re-design the code base to be better situated for the future direction of TurboTax.",
       "highlights": [
           "Rewrote the companies tax estimation/forecasting tool TaxCaster from the ground up in Swift using current best practices and even building cross platform reusable data structures.",
